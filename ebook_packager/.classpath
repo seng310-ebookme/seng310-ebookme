@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="lib" path="lib/me-app.jar"/>
+	<classpathentry kind="lib" path="lib/swing-layout-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/htmlparser-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/pdfbox-0.8.0-incubating.jar"/>
+	<classpathentry kind="lib" path="lib/icu4j-4_2_1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-378471.jar"/>
+	<classpathentry kind="lib" path="lib/aperture_extractors.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ebook">
+		<accessrules>
+			<accessrule kind="accessible" pattern="**/ebook/Common*"/>
+			<accessrule kind="nonaccessible" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

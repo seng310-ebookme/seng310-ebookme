@@ -1,0 +1,488 @@
+Èeskı pøeklad GNU Lesser General Public License
+
+Tento text je neoficiálním pøekladem GNU Lesser General Public 
+License (GNU LGPL). Nebyl vydán nadací Free Software 
+Foundation a nevyjadøuje právní podstatu podmínek pro šíøení 
+softwaru pouívajícího GNU LGPL – tomuto úèelu slouí vıhradnì 
+pùvodní anglická verze GNU LGPL. Pøesto doufáme, e tento 
+pøeklad pomùe èeskım ètenáøùm lépe porozumìt licenci GNU 
+LGPL.
+
+This is an unofficial translation of the GNU Lesser General 
+Public License into Czech. It was not published by the Free 
+Software Foundation, and does not legally state the 
+distribution terms for software that use the GNU LGPL – only 
+the original English text of the GNU LGPL does that. However, 
+we hope that this translation will help Czech speakers 
+understand the GNU LPGL better.
+
+GNU Lesser General Public License
+Èeskı pøeklad verze 2.1, únor 1999
+Copyright (C) 1991, 1999 Free Software Foundation, Inc.
+59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+Kadému je povoleno kopírovat a šíøit doslovné kopie
+tohoto licenèního dokumentu, ale není dovoleno jej mìnit.
+
+[Toto je první vydaná verze Lesser GPL. Také se poèítá
+jako následník GNU Library Public License, verze 2, odtud
+èíslo verze 2.1.]
+Úvod
+Licence pro vìtšinu softwaru jsou navreny tak, aby vám 
+sebraly svobodu sdílet ho a mìnit. Naproti tomu GNU General 
+Public Licenses jsou urèeny k tomu, aby vám svobodu sdílet a 
+mìnit svobodnı software zaruèovaly – s cílem zajistit, e 
+software bude svobodnı pro všechny jeho uivatele.
+Tato licence, Lesser General Public License, se vztahuje na 
+nìkteré softwarové balíèky se zvláštním urèením – typicky 
+knihovny – od Free Software Foundation a dalších autorù, kteøí 
+se rozhodnou ji pouít. Pouít ji mùete i vy, ale 
+doporuèujeme vám, abyste si na základì dalšího vıkladu nejprve 
+dùkladnì rozmysleli, zda je v tom kterém pøípadì lepší 
+strategií pouít tuto licenci, anebo bìnou General Public 
+License.
+Mluvíme-li o svobodném softwaru, máme na mysli svobodu 
+pouívání, nikoli cenu. Naše General Public Licenses jsou 
+navreny tak, aby zajišovaly, e budete mít svobodu šíøit 
+kopie svobodného softwaru (a tuto slubu si zpoplatnit, 
+budete-li chtít); e dostanete zdrojovı kód nebo budete mít 
+monost si ho poøídit; e mùete danı software mìnit a 
+pouívat jeho èásti v novıch svobodnıch programech; a e vám 
+bude oznámeno, e tyto vìci mùete dìlat.
+Abychom mohli ochránit vaše práva, musíme vytvoøit omezení, 
+která znemoní distributorùm vám tato práva upírat nebo ádat 
+po vás, abyste se tìchto práv vzdali. Pokud šíøíte kopie 
+knihovny nebo ji upravujete, mìní se pro vás tato omezení v 
+urèité závazky.
+Napøíklad, jestlie šíøíte kopie knihovny, a u gratis nebo 
+za peníze, musíte pøíjemcùm poskytnout všechna práva, která my 
+poskytujeme vám. Musíte zajistit, aby i oni dostali nebo mìli 
+monost poøídit si zdrojovı kód. Pokud s knihovnou sestavujete 
+další kód, musíte dát pøíjemcùm k dispozici kompletní 
+objektové soubory, aby poté, co provedou v knihovnì zmìny a 
+znovu ji zkompilují, mohli tyto objektové soubory s knihovnou 
+opìt sestavit. A musíte jim ukázat tyto podmínky, aby znali 
+svá práva.
+Vaše práva chráníme metodou sestávající ze dvou krokù: (1) 
+Opatøíme knihovnu copyrightem a (2) nabídneme vám tuto 
+licenci, která vám poskytuje zákonné povolení knihovnu 
+kopírovat, šíøit a/nebo upravovat.
+Abychom ochránili kadého distributora, chceme zajistit, aby 
+bylo velmi jasné, e na svobodné knihovny se nevztahuje ádná 
+záruka. Také pokud knihovnu upraví nìkdo jinı a pøedá ji dál, 
+mìli by pøíjemci vìdìt, e to, co mají, není pùvodní verze, 
+aby problémy, které by mohli zpùsobit druzí, nekazily povìst 
+pùvodního autora.
+Nakonec, neustálou hrozbu pro existenci jakéhokoli svobodného 
+programu pøedstavují softwarové patenty. Pøejeme si zajistit, 
+aby ádná firma nemohla úèinnì omezovat uivatele svobodného 
+programu tím, e od dritele patentu získá restriktivní 
+licenci. A proto trváme na tom, e jakákoli patentová licence 
+získaná pro urèitou verzi knihovny musí bıt v souladu s úplnou 
+svobodou pouívání, specifikovanou v této licenci.
+Na vìtšinu softwaru GNU, vèetnì nìkterıch knihoven, se 
+vztahuje obyèejná GNU General Public License. Tato licence, 
+GNU Lesser General Public License, se vztahuje na nìkteré 
+urèené knihovny a je úplnì jiná ne obyèejná General Public 
+License. Tuto licenci pouijeme pro urèité knihovny, abychom 
+je povolili sestavovat s nesvobodnımi programy.
+Kdy se nìjakı program sestaví s knihovnou, a u staticky 
+nebo za pouití sdílené knihovny, je kombinace tìchto dvou z 
+právního hlediska kombinovanım dílem, odvozeninou pùvodní 
+knihovny. Obyèejná General Public License proto dovoluje 
+takové sestavení pouze tehdy, vyhoví-li celá kombinace jejím 
+mìøítkùm svobody. Lesser General Public License stanovuje pro 
+sestavování jiného kódu s knihovnou volnìjší mìøítka.
+Této licenci øíkáme "Lesser" (menší) General Public License 
+proto, e pro ochranu svobody uivatele dìlá ménì (less) ne 
+obyèejná GNU General Public License. Také vıvojáøùm dalšího 
+svobodného softwaru poskytuje ménì vıhod oproti konkurenèním 
+nesvobodnım programùm. Tyto nevıhody jsou dùvodem, proè pro 
+mnoho knihoven pouíváme obyèejnou GNU General Public License. 
+Nicménì za urèitıch zvláštních okolností tato menší licence 
+pøináší vıhody.
+Napøíklad, aè zøídka, se mùe vyskytnout zvláštní potøeba 
+podpoøit co nejmasovìjší pouívání urèité knihovny, aby se 
+tato stala de facto standardem. K dosaení toho je nutné 
+umonit vyuití knihovny i pro nesvobodné programy. Èastìjším 
+pøípadem je, e urèitá svobodná knihovna má stejnou funkci, 
+jako bìnìji pouívané nesvobodné knihovny. V tomto pøípadì se 
+omezením svobodné knihovny vıhradnì pro svobodné programy dá 
+získat jen málo, proto pouijeme Lesser General Public 
+License.
+V jinıch pøípadech povolení pouívat urèitou knihovnu v 
+nesvobodnıch programech umoní pouívat spoustu svobodného 
+softwaru vìtšímu poètu lidí. Napøíklad, povolení pouívat 
+knihovnu GNU C v nesvobodnıch programech umoòuje mnohem více 
+lidem pouívat celı operaèní systém GNU a rovnì tak jeho 
+variantu, operaèní systém GNU/Linux.
+Aèkoli Lesser General Public License chrání svobodu uivatelù 
+ménì, zajišuje, e uivatel programu, kterı byl sestaven s 
+danou knihovnou, bude mít svobodu a finanèní prostøedky 
+potøebné pro provozování tohoto programu i pøi pouívání 
+modifikované verze knihovny.
+Dále uvádíme pøesné podmínky pro kopírování, šíøení a úpravy. 
+Dávejte si dobrı pozor na rozdíl mezi "dílem zaloenım na 
+knihovnì" a "dílem, které pouívá knihovnu". První obsahuje 
+kód odvozenı z knihovny, druhé se musí pouít s knihovnou, aby 
+mohlo bìet.
+PODMÍNKY PRO KOPÍROVÁNÍ, ŠÍØENÍ A ÚPRAVY
+0. Tato licenèní smlouva se vztahuje na jakoukoli softwarovou 
+knihovnu nebo jinı program obsahující vyrozumìní vloené 
+dritelem autorskıch práv nebo jinou oprávnìnou stranou, kde 
+stojí, e danı software smí bıt šíøen v souladu s podmínkami 
+této Lesser General Public License (jinımi slovy "této 
+licence"). Kadı dritel licence je oslovován "vy".
+"Knihovna" znamená sbírku softwarovıch funkcí a/nebo dat 
+pøipravenıch tak, aby mohly bıt vhodnì sestavovány s 
+aplikaèními programy (je nìkteré tyto funkce a data 
+vyuívají) za úèelem vytvoøení spustitelnıch souborù.
+Dále v textu se "Knihovna" tıká jakékoli knihovny nebo díla, 
+které jsou šíøeny za tìchto podmínek. "Dílo zaloené na 
+Knihovnì" znamená Knihovna, nebo jakékoli dílo odvozené pod 
+ochranou autorského zákona: jinımi slovy dílo obsahující 
+Knihovnu nebo její èást beze zmìn, nebo s úpravami a/nebo 
+pøímo pøeloenou do jiného jazyka. (Odtud dál se pøeklad 
+zahrnuje bez omezení do termínu "úprava".)
+"Zdrojovı kód" k dílu znamená podoba díla upøednostòovaná pro 
+provádìní úprav na nìm. U knihovny úplnı zdrojovı kód znamená 
+všechen zdrojovı kód pro všechny moduly, které knihovna 
+obsahuje, plus jakékoli pøidruené soubory s definicemi 
+rozhraní plus skripty pouívané pro øízení kompilace a 
+instalace knihovny.
+Na èinnosti jiné ne kopírování, šíøení a upravování se tato 
+licence nevztahuje; jsou mimo její rozsah platnosti. Na 
+provozování programu vyuívajícího Knihovnu se nekladou ádná 
+omezení a vıstupu takového programu se licence tıká jen v 
+pøípadì, e pøedstavuje dílo zaloené na Knihovnì (nezávisle 
+na pouití Knihovny nástrojem pro jeho psaní). Zda je tomu 
+tak, záleí na tom, co dìlá Knihovna a co dìlá program, kterı 
+Knihovnu vyuívá.
+1. Doslovné kopie zdrojového kódu knihovny smíte kopírovat a 
+šíøit tak, jak je dostanete, na jakékoli médiu za pøedpokladu, 
+e na kadé kopii viditelnì a vhodnì zveøejníte vyrozumìní o 
+autorskıch právech a popøení záruky; necháte beze zmìny 
+všechna vyrozumìní související s touto licencí a absencí 
+jakékoli záruky; a spolu s Knihovnou budete šíøit kopii této 
+licence.
+Za kopírování jako fyzickı úkon si smíte úètovat poplatek a 
+dle svého uváení smíte nabízet vımìnou za poplatek záruèní 
+ochranu.
+2. Svou kopii nebo kopie Knihovny nebo jakékoli její èásti 
+smíte upravovat, tedy utváøet dílo zaloené na Knihovnì, a 
+tyto úpravy nebo dílo kopírovat a šíøit v souladu s podmínkami 
+z oddílu 1 vıše za pøedpokladu, e také vyhovíte všem tìmto 
+podmínkám:
+a) Upravené dílo samo musí bıt softwarová knihovna. 
+b) Musíte zajistit, aby všechny upravené soubory 
+obsahovaly dobøe viditelná vyrozumìní, ve kterıch bude 
+stát, e vy jste soubory zmìnili a kdy se tak stalo. 
+c) Musíte zajistit, aby všem tøetím stranám byla 
+bezplatnì udìlena licence na celé dílo v souladu s 
+podmínkami této licence. 
+d) Pokud se prostøedek v upravené knihovnì odkazuje na 
+funkci nebo datovou tabulku, kterou má dodat aplikaèní 
+program, jen prostøedek vyuívá, jinou ne argument 
+pøedávanı pøi volání prostøedku, pak musíte vyvinout 
+dobøe mínìnou snahu zajistit, aby danı prostøedek 
+fungoval i v pøípadì, e aplikace takovou funkci nebo 
+tabulku neposkytuje, a provádìl kteroukoli èást svého 
+poslání, je zùstane smysluplná. 
+(Kupøíkladu posláním knihovní funkce pro vıpoèet druhé 
+odmocniny je, aby byla naprosto jasnì definovaná nezávisle na 
+aplikaci. Pododdíl 2d tedy pøedepisuje, e jakákoli aplikací 
+dodaná funkce nebo tabulka musí bıt volitelná: I kdy ji 
+aplikace nedodá, funkce pro vıpoèet druhé odmocniny musí poøád 
+poèítat druhou odmocninu.)
+Tyto poadavky se vztahují na upravené dílo jako celek. Pokud 
+identifikovatelné oddíly tohoto díla nejsou odvozeny od 
+Knihovny a lze je samy rozumnì povaovat za nezávislá a 
+samostatná díla, pak kdy je šíøíte jako samostatná díla, tato 
+licence a její podmínky se na nì nevztahují. Ale paklie 
+stejné oddíly šíøíte jako souèást celku, kterım je dílo 
+zaloené na Knihovnì, musí šíøení tohoto celku probíhat na 
+základì podmínek této licence, a platnost toho, co povoluje 
+jinım dritelùm licence, se rozšiøuje na úplnı celek, a tím na 
+kadou èást bez ohledu na to, kdo ji napsal.
+Úèelem tohoto oddílu tedy není dovolávat se práv nebo 
+zpochybòovat vaše práva na dílo, které jste napsali pouze vy; 
+úèelem je uplatòovat právo regulovat šíøení odvozenıch nebo 
+spoleènıch dìl zaloenıch na Knihovnì.
+Mimoto, pouhé seskupení jiného díla nezaloeného na Knihovnì 
+spolu s Knihovnou (nebo dílem zaloenım na Knihovnì) na jedno 
+úloné èi distribuèní médium neznamená, e by se na ono jiné 
+dílo pak vztahovala tato licence.
+3. Mùete se rozhodnout pouít pro danou kopii Knihovny místo 
+této licence podmínky obyèejné GNU General Public License. 
+Abyste to mohli udìlat, musíte pozmìnit všechna vyrozumìní 
+související s touto licencí tak, aby se odvolávala na 
+obyèejnou GNU General Public License ve verzi 2, a ne na tuto 
+licenci. (Pokud se objevila novìjší verze obyèejné GNU General 
+Public License ne 2, pak mùete namísto ní uvést tuto novìjší 
+verzi, pokud chcete.) ádné další zmìny v tìchto vyrozumìních 
+nedìlejte.
+Jakmile je tato zmìna v dané kopii provedena, je pro ni 
+neodvolatelná, a tak pro všechny následné kopie a díla 
+odvozená od této kopie platí obyèejná GNU General Public 
+License.
+Tato monost je uiteèná, jestlie si pøejete zkopírovat èást 
+kódu Knihovny do programu, kterı není knihovnou.
+4. Knihovnu (nebo její èást èi podle oddílu 2 dílo od ní 
+odvozené) v objektovém kódu nebo ve spustitelné podobì smíte 
+kopírovat a šíøit v souladu s podmínkami z oddílù 1 a 2 vıše 
+za pøedpokladu, e k ní pøiloíte úplnı pøíslušnı strojovì 
+èitelnı zdrojovı kód, kterı podle podmínek z oddílù 1 a 2 vıše 
+musí bıt šíøen na médiu obvykle pouívaném pro vımìnu 
+softwaru.
+Pokud se šíøení objektového kódu provádí tak, e se nabídne 
+pøístup ke kopírování ze stanoveného místa, pak poadavku na 
+šíøení zdrojového kódu vyhovíte tím, e nabídnete obdobnı 
+pøístup ke kopírování zdrojového kódu ze stejného místa, a to 
+i pøesto, e nenutíte tøetí strany kopírovat zdrojovı kód 
+spolu s objektovım kódem.
+5. Program, kterı neobsahuje ádnou odvozeninu od jakékoli 
+èásti Knihovny, ale tím, e se s Knihovnou kompiluje nebo 
+sestavuje, je urèen k práci s ní, se nazıvá "dílo, které 
+pouívá Knihovnu". Takové dílo samo o sobì není dílem 
+odvozenım od Knihovny, a proto nespadá do rozsahu platnosti 
+této licence.
+Avšak sestavením "díla, které pouívá Knihovnu" s Knihovnou 
+vznikne spustitelnı soubor, kterı je spíše odvozeninou od 
+Knihovny (protoe pouívá èásti Knihovny), ne "dílem, které 
+pouívá Knihovnu". Proto se tato licence tohoto spustitelného 
+souboru tıká. Podmínky pro šíøení tìchto spustitelnıch souborù 
+stanovuje oddíl 6.
+Pokud "dílo, které pouívá Knihovnu" pouívá obsah 
+hlavièkového souboru, kterı je souèástí knihovny, objektovı 
+kód pro toto dílo mùe bıt dílem odvozenım od knihovny, i kdy 
+zdrojovı kód jím není. Zda je tomu tak, je obzvláštì vıznamné, 
+jestlie lze dílo sestavit i bez Knihovny nebo dílo samo je 
+knihovna. Práh pro stanovení, zda tomu tak je, zákon pøesnì 
+nedefinuje.
+Pouívá-li takovı objektovı soubor jen numerické parametry, 
+rozvrení a pøístupové modifikátory datovıch struktur, a malá 
+makra a malé inline funkce (o deseti a ménì øádcích), pak se 
+na pouití tohoto objektového souboru nevztahuje ádné omezení 
+bez ohledu na to, zda jde z právního hlediska o odvozené dílo. 
+(Spustitelné soubory obsahující tento objektovı kód plus èásti 
+Knihovny budou stále spadat pod oddíl 6.)
+Jinak, je-li dílo odvozeninou od Knihovny, smíte objektovı kód 
+šíøit v souladu s podmínkami uvedenımi v oddílu 6. Jakékoli 
+spustitelné soubory obsahující toto dílo rovnì spadají pod 
+oddíl 6, a u jsou nebo nejsou sestaveny pøímo s Knihovnou 
+samou.
+6. Vıjimkou z vıše uvedenıch oddílù je, e také smíte 
+zkombinovat nebo sestavit "dílo, které pouívá Knihovnu" spolu 
+s Knihovnou, èím vznikne dílo obsahující èásti Knihovny, a 
+šíøit toto dílo za podmínek, které uznáte za vhodné, za 
+pøedpokladu, e tyto podmínky zákazníkovi dovolují upravit si 
+dílo pro vlastní pouití a pro odlaïování takovıchto úprav 
+provádìt reverzní inenırství.
+Ke kadé kopii vısledného díla musíte poskytnout dobøe 
+viditelné vyrozumìní, e je v nìm pouita Knihovna a e na 
+Knihovnu a na její pouívání se vztahuje tato licence. Musíte 
+také pøiloit kopii této licence. Jestlie dílo za bìhu 
+zobrazuje vyrozumìní o autorskıch právech, musíte mezi nì 
+zahrnout vyrozumìní o autorskıch právech ke Knihovnì a rovnì 
+odkaz smìrující uivatele ke kopii této licence. Musíte té 
+udìlat jednu z tìchto vìcí:
+a) Pøilote k dílu úplnı pøíslušnı strojovì èitelnı 
+zdrojovı kód Knihovny vèetnì jakıchkoli zmìn, které byly 
+v díle pouity (musí bıt šíøeny v souladu s oddíly 1 a 2 
+vıše); a je-li dílo spustitelnı soubor sestavenı s 
+knihovnou, úplné strojovì èitelné "dílo, které pouívá 
+knihovnu" jako objektovı kód a/nebo zdrojovı kód, tak aby 
+uivatel mohl Knihovnu upravit a potom znovu sestavit za 
+úèelem vytvoøení upraveného spustitelného souboru 
+obsahujícího upravenou Knihovnu. (Je jasné, e uivatel, 
+kterı zmìní obsah souborù s definicemi v Knihovnì nemusí 
+bıt nutnì schopen znovu zkompilovat aplikaci tak, aby 
+pouívala modifikované definice.) 
+b) Pouijte pro sestavení s Knihovnou vhodnı mechanizmus 
+sdílení knihoven. Vhodnı mechanizmus je ten, kterı (1) 
+pøi bìhu pouívá kopii knihovny, která v uivatelovì 
+poèítaèovém systému u je, místo toho, aby knihovní 
+funkce kopíroval do spustitelného souboru, a (2) 
+nainstaluje-li uivatel upravenou verzi knihovny, bude s 
+ní fungovat správnì, dokud tato upravená verze bude mít 
+rozhraní kompatibilní s verzí, s ní bylo dílo vytvoøeno. 
+c) Pøilote k dílu psanou objednávku s platností nejménì 
+na tøi roky na poskytnutí materiálù uvedenıch v podsekci 
+6a vıše stejnému uivateli, a to buï bezplatnì, nebo za 
+cenu nepøevyšující náklady na uskuteènìní této dodávky. 
+d) Šíøíte-li dílo tak, e nabízíte pøístup ke zkopírování 
+ze stanoveného místa, nabídnìte rovnocennı pøístup ke 
+zkopírování vıše uvedenıch materiálù ze stejného místa. 
+e) Ovìøte, e uivatel kopii tìchto materiálù u pøijal, 
+nebo e jste takovou kopii tomuto uivateli u poslali. 
+7. Knihovní prostøedky, které jsou dílem zaloenım na 
+Knihovnì, smíte umístit do jedné knihovny spolu s jinımi 
+knihovními prostøedky, na které se tato licence nevztahuje, a 
+takovouto kombinovanou knihovnu smíte šíøit za pøedpokladu, e 
+samostatné šíøení pùvodního díla zaloeného na Knihovnì a 
+stejnì tak ostatních knihovních prostøedkù je umonìno jinak a 
+e udìláte tyto dvì vìci:
+a) Pøiloíte ke kombinované knihovnì kopii stejného díla 
+zaloeného na Knihovnì nezkombinovaného s ádnımi jinımi 
+knihovními prostøedky. Tuto kopii musíte šíøit v souladu 
+s podmínkami z oddílù uvedenıch vıše. 
+b) Poskytnete ke kombinované knihovnì dobøe viditelné 
+vyrozumìní o skuteènosti, e její èást je dílem zaloenım 
+na Knihovnì, a vysvìtlující, kde najít doplòující 
+nezkombinovanou podobu stejného díla. 
+8. Knihovnu nesmíte kopírovat, upravovat, udìlovat na ni 
+licenci, sestavovat nebo šíøit jinak, ne je vıslovnì 
+stanoveno touto licencí. Jakákoli snaha kopírovat, upravovat, 
+udìlovat licenci na, sestavovat nebo šíøit Knihovnu jinak je 
+neplatná a automaticky vás zbavuje práv danıch touto licencí. 
+Nicménì stranám, které od vás obdrely kopie nebo práva podle 
+této licence, nebudou jejich licence vypovìzeny, dokud se jimi 
+tyto strany budou v plném rozsahu øídit.
+9. Protoe jste tuto licenci nepodepsali, neádá se po vás, 
+abyste ji pøijali. Avšak povolení upravovat nebo šíøit 
+Knihovnu nebo díla od ní odvozená nikde jinde nedostanete. 
+Pokud tuto licenci nepøijmete, jsou takové èinnosti zákonem 
+zapovìzeny. Proto úpravou nebo šíøením Knihovny (nebo 
+jakéhokoli díla zaloeného na Knihovnì) dáváte najevo, e tuto 
+licenci se všemi jejími podmínkami pro kopírování, šíøení èi 
+úpravy Knihovny nebo dìl na ní zaloenıch pøijímáte, abyste 
+tak mohli èinit.
+10. Pokadé, kdy budete Knihovnu (nebo jakékoli dílo zaloené 
+na Knihovnì) šíøit dále, pøíjemce automaticky od pùvodního 
+poskytovatele obdrí licenci na kopírování, šíøení, 
+sestavování nebo upravování Knihovny podléhající tìmto 
+podmínkám. Na uplatòování zde zaruèenıch práv pøíjemci nesmíte 
+uvalit ádná další omezení. Nejste odpovìdní za prosazování, 
+aby tøetí strany tuto licenci dodrovali.
+11. Jestlie jsou vám v dùsledku soudního rozsudku nebo 
+obvinìní z nerespektování patentu èi z jakéhokoli jiného 
+dùvodu (bez omezení na otázku patentù) uloeny podmínky (a u 
+soudním pøíkazem, dohodou nebo jinak), které jsou v rozporu s 
+podmínkami této licence, od podmínek této licence vás 
+neosvobozují. Nemùete-li provádìt šíøení tak, abyste dostáli 
+svım povinnostem danım touto licencí a souèasnì jakımkoli 
+dalším relevantním povinnostem, nesmíte Knihovnu šíøit vùbec. 
+Pokud by napøíklad všem, kdo od vás pøímo nebo nepøímo dostali 
+kopii, neumoòovala nìjaká patentová licence další šíøení 
+knihovny, ani by museli zaplatit licenèní poplatek, pak by 
+jedinım zpùsobem, jak neporušit ani patentovou ani tuto 
+licenci, bylo se šíøení Knihovny úplnì zdret.
+Je-li za jakıchkoli zvláštních okolností kterákoli èást tohoto 
+oddílu neplatná nebo nevynutitelná, bude platit zbytek tohoto 
+oddílu, a za jinıch okolností bude platit tento oddíl celı.
+Úèelem tohoto oddílu není navádìt vás k nerespektování 
+jakıchkoli patentù nebo jinıch nárokù na vlastnická práva ani 
+ke zpochybòování oprávnìnosti jakıchkoli takovıchto nárokù; 
+jedinım úèelem tohoto oddílu je ochraòovat celistvost systému 
+šíøení svobodného softwaru, realizovaného praktikováním 
+veøejnıch licencí. Mnoho lidí štìdøe pøispìlo k pestrému 
+vıbìru softwaru, kterı je šíøen prostøednictvím tohoto 
+systému, s dùvìrou v dùsledné pouívání tohoto systému; 
+rozhodnutí, zda je ochoten šíøit software prostøednictvím 
+jakéhokoli jiného systému, je na autorovi/dárci, a dritel 
+licence nemùe nikomu vnucovat své rozhodnutí.
+V tomto oddílu chceme dùkladnì vyjasnit, co je, jak se 
+pøedpokládá, dùsledkem zbytku této licence.
+12. Pokud šíøení a/nebo pouívání Knihovny v urèitıch zemích 
+omezují buïto patenty, nebo skuteènost, e na pouitá rozhraní 
+existují autorská práva, smí pùvodní dritel autorskıch práv, 
+kterı pro Knihovnu pouije tuto licenci, pøidat vıslovné 
+omezení vyluèující šíøení v takovıch zemích, aby bylo šíøení 
+dovoleno pouze v rámci zemí, je jím nebyly vylouèeny. V 
+takovém pøípadì se omezení zahrne do této licence, jako by 
+bylo uvedeno v jejím textu.
+13. Nadace Free Software Foundation mùe èas od èasu 
+publikovat zrevidované a/nebo nové verze Lesser General Public 
+License. Takovéto nové verze budou svım duchem podobné 
+souèasné verzi, ale mohou se lišit v detailech, které se budou 
+zamìøovat na nové problémy nebo záleitosti.
+Kadé verzi licence je dáno rozlišovací èíslo verze. Jestlie 
+Knihovna stanoví, e se na ni vztahuje konkrétní èíslo verze 
+této licence "nebo jakákoli další verze", mùete se øídit buï 
+podmínkami uvedené verze, anebo podmínkami jakékoli další 
+verze, kterou vydala nadace Free Software Foundation. Pokud 
+Knihovna èíslo verze licence neuvádí, mùete si vybrat 
+jakoukoli verzi, kterou nadace Free Software Foundation kdy 
+vydala.
+14. Pøejete-li si zahrnout èásti Knihovny do jinıch svobodnıch 
+programù, jejich distribuèní podmínky jsou se zde uvádìnımi 
+podmínkami nesluèitelné, napište dotyènému autorovi a 
+poádejte ho o svolení. Co se tıèe softwaru, na kterı má 
+autorská práva nadace Free Software Foundation, pište na Free 
+Software Foundation; nìkdy v takovém pøípadì udìlujeme 
+vıjimky. Naše rozhodnutí se øídí dvìma cíli: Uchovat svobodnı 
+statut všech odvozenin našeho svobodného softwaru a prosazovat 
+sdílení a znovuvyuívání softwaru všeobecnì.
+ZÁRUKA SE NEPOSKYTUJE
+15. PROTOE SE NA KNIHOVNU UDÌLUJE BEZPLATNÁ LICENCE, 
+NEVZTAHUJE SE NA NI V MÍØE TOLEROVANÉ PØÍSLUŠNİMI ZÁKONY ÁDNÁ 
+ZÁRUKA. POKUD NEBYLO PÍSEMNÌ STANOVENO JINAK, DRITELÉ 
+AUTORSKİCH PRÁV A/NEBO JINÉ STRANY POSKYTUJÍ KNIHOVNU "TAK, 
+JAK JE" BEZ JAKÉHOKOLI DRUHU ZÁRUKY, A VİSLOVNÉ NEBO 
+PØEDPOKLÁDANÉ, VÈETNÌ PØEDPOKLÁDANİCH ZÁRUK OBCHODOVATELNOSTI 
+A VHODNOSTI PRO URÈITİ ÚÈEL. VEŠKERÁ RIZIKA, CO SE KVALITY A 
+FUNGOVÁNÍ KNIHOVNY TİÈE, NA SEBE BERETE VY. PAKLIE BY SE 
+UKÁZALO, E KNIHOVNA JE VADNÁ, UHRADÍTE NÁKLADY NA VEŠKEROU 
+POTØEBNOU ÚDRBU A OPRAVY.
+16. ÁDNİ DRITEL AUTORSKİCH PRÁV ANI ÁDNÁ JINÁ STRANA, KTERÁ 
+SMÍ KNIHOVNU UPRAVOVAT A/NEBO ŠÍØIT DÁLE, JAK JE POVOLENO 
+VİŠE, SE VÁM V ÁDNÉM PØÍPADÌ, NENÍ-LI TO VYADOVÁNO 
+PØÍSLUŠNİMI ZÁKONY NEBO PÍSEMNÌ ODSOUHLASENO, NEBUDE 
+ZODPOVÍDAT ZA ŠKODY, VÈETNÌ JAKİCHKOLI OBECNİCH, MIMOØÁDNİCH, 
+NÁHODNİCH NEBO NÁSLEDNİCH ŠKOD VYPLİVAJÍCÍCH Z POUITÍ NEBO 
+NEMONOSTI POUITÍ KNIHOVNY (VÈETNÌ ZTRÁTY ÈI POKAENÍ DAT, 
+ZTRÁT UTRPÌNİCH VÁMI ÈI TØETÍMI STRANAMI NEBO NESCHOPNOSTI 
+KNIHOVNY FUNGOVAT S JAKİMKOLI JINİM SOFTWAREM), A TO I V 
+PØÍPADÌ, E TENTO DRITEL NEBO TØETÍ STRANA BYLY NA MONOST 
+TAKOVİCH ŠKOD UPOZORNÌNI.
+KONEC PODMÍNEK
+Jak uplatnit tyto podmínky na vaše nové knihovny
+Pokud vyvinete novou knihovnu a chcete, aby byla veøejnosti k 
+co nejvìtšímu uitku, doporuèujeme z ní udìlat svobodnı 
+software, kterı mùe kadı šíøit a mìnit. Mùete tak uèinit 
+povolením jejího dalšího šíøení za tìchto podmínek (nebo 
+popøípadì za podmínek obyèejné GNU General Public License).
+<øádka se jménem programu a nástinem toho, co dìlá>
+
+Copyright (C)<rok> <jméno autora>
+
+Tato knihovna je svobodnı software; mùete ji šíøit a 
+upravovat
+v souladu s podmínkami GNU Lesser General Public License,
+tak jak ji vydala nadace Free Software Foundation; buï verze 
+2.1
+této licence, anebo (dle svého uváení) kterékoli pozdìjší 
+verze.
+
+Tato knihovna je šíøena v nadìji, e bude uiteèná, avšak
+BEZ JAKÉKOLI ZÁRUKY; dokonce i bez pøedpokládané záruky
+OBCHODOVATELNOSTI èi VHODNOSTI PRO URÈITİ ÚÈEL.
+Pro další podrobnosti viz GNU Lesser General Public License.
+
+Spolu s touto knihovnou jste mìli obdret kopii GNU Lesser 
+General
+Public License; pokud se tak nestalo, pište na Free Software 
+Foundation,
+Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+Pøipojte rovnì informaci o tom, jak je moné se s vámi spojit 
+elektronickou a papírovou poštou.
+Pokud je program interaktivní, zaøiïte, aby se pøi startu v 
+interaktivním módu vypsalo hlášení podobné tomuto:
+Packal verze 69, Copyright (C) 19xx jméno autora.
+Program Packal je ABSOLUTNÌ BEZ ZÁRUKY; podrobnosti se dozvíte
+zadáním 'show w'. Jde o svobodnı software a jehošíøení za 
+jistıch
+podmínek je vítáno; podrobnosti získáte zadáním `show c'.
+Pokud je to nutné, mìl byste také pøimìt svého zamìstnavatele 
+(jestlie pracujete jako programátor) nebo pøedstavitele vaší 
+školy, je-li nìkdo takovı, k tomu, aby podepsal "zøeknutí se 
+autorskıch práv". Zde je vzor; jména pozmìòte: 
+Jojotechna, a.s., se tímto zøíká veškerého zájmu o autorská 
+práva k
+programu 'Packal' (pøekladaè s nakladaèem) napsanému Jakubem 
+Bastlem.
+
+<Tomáš Sloitı--podpis>, 1. dubna 1989
+
+Tomáš Sloitı, více ne prezident
+To je k této vìci vše!
+

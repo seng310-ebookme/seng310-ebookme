@@ -1,0 +1,69 @@
+Version 2.6.1
+===============
+-fixed navigation using touch screen
+
+Version 2.6.0
+===============
+-russian and polish translations
+-small improvements of font settings in Option screen
+-PDF import library updated (PDFBox)
+-book name conversion to ASCII uses ICU4J library
+-Java version in windows installer: JRE 6 update 18
+
+Version 2.5
+===============
+-bookmarks in EBookME
+-Save/Load EBookME projects in Packager GUI
+-Windows installer and EXE launchers for EBookME Packager and Microemulator
+-new documentation - EBookME.pdf
+-experimental support for Tamil (translation from K R Jawaharlal)
+-fixed stream reading 
+
+Version 2.2
+===============
+-fix for arabic shaping
+-chinese translation by "killer"
+
+Version 2.1
+===============
+-rework of EBookMe options
+-display rotation
+-Drag&Drop files to book-list (packager) implemented
+-arabic shaping for R-L texts
+-and much more :-)
+
+Version 2.0a
+===============
+-new SWING UI
+-disable word wrapping
+-support for right-to-left written texts
+
+Version 1.667
+===============
+-recompiled 1.666 for CLDC-1.0/MIDP-1.0
+
+Version 1.666
+===============
+-french translation
+-support for chapters (manually insert markup [*...*])
+-rework of classes to improve performance
+
+Version 1.1 b3
+===============
+-spanish and german translation
+-editing of books before creating package
+-import texts from non-trivial documents (DOC, HTML, PDF, ...)
+-simple tutorial in PDF
+
+Version 1.0 RC1
+===============
+-GUI enabled (can be used also as an applet or Java Web Start application)
+-many bug-fixes
+-slovak environment runs with czech translations
+
+Version 0.8
+===============
+(first release)
+-command line packaging application
+-support of many character encodings for input files
+-support for localizations (Czech and English translation included)

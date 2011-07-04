@@ -1,0 +1,9 @@
+MIDlet-Jar-Size: 1
+MIDlet-1: EBook, /icon.png, cz.cacek.ebook.EBookMIDlet
+MIDlet-Jar-URL: ebook.jar
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Version: 2.5.0
+MIDlet-Name: EBookME
+MIDlet-Description: EBookME Reader
+MIDlet-Vendor: Josef Cacek
+MicroEdition-Profile: MIDP-1.0

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Ant build file for ebook project.
+-->
+<project name="ebook" default="jme" basedir=".">
+	
+	<description>Builds EBookME</description>
+
+	<!-- Load user overrides -->
+	<property file="${user.home}/.${ant.project.name}-build.properties" />
+	<property file="${user.home}/.build.properties" />
+	<property file="../ebook_packager/build.properties" />
+
+	<!-- import properties -->
+	<import file="../ebook_packager/properties.xml"/>
+
+    <property name="jmeBin" value="${buildDir}/jmebin"/>
+
+	<target name="clean">
+		<delete dir="${build.dir}"/>
+    </target>
+	
+    <target name="prepare-build" depends="clean">
+		<mkdir dir="${bin.dir}"/>
+
+	    <taskdef resource="antenna.properties" classpath="${antenna.jar}"/>
+
+		<copy todir="${src.filtered.dir}">
+			<fileset dir="src">
+				<include name="**" />
+			</fileset>
+			<filterset refid="ebookme.filterset"/>		
+		</copy>
+
+		<path id="jme.classpath">
+		    <fileset dir="lib">
+				<include name="*.jar"/>
+		    </fileset>
+		</path>
+	
+    </target>
+	
+    <target name="jme" depends="prepare-build">
+		<wtkbuild srcdir="${src.filtered.dir}" destdir="${bin.dir}" preverify="false"
+					target="1.1">
+		    <classpath refid="jme.classpath"/>
+		</wtkbuild>
+		<copy todir="${build.dir}" file="ebook.jad"/>
+	
+		<!-- Package everything.  -->
+		<wtkpackage jarfile="${build.dir}/ebook.jar" jadfile="${build.dir}/ebook.jad"
+		        	obfuscate="true" preverify="true" classpathref="jme.classpath">
+		    <fileset dir="${bin.dir}"/>
+		    <fileset dir="res"/>
+		</wtkpackage>
+    </target>
+</project>

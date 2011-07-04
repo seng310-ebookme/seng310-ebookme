@@ -1,0 +1,36 @@
+##############################################################
+####
+####          Sample configuration file
+####
+####    for loading property files is used  system default 
+####    character encoding
+#### 
+#### Revision: $Revision: 1.5 $
+#### Date:     $Date: 2007/07/13 14:23:08 $
+#### Author:   $Author: kwart $
+#### 
+##############################################################
+
+# Name of the book
+name=Bible
+
+# Description of book
+description=Old and New Testament
+
+# Charset of input file [default means default for your system]
+charset=default
+
+# Size of book part
+#part=
+
+# Output file name (or path) [name -> name.jar, name.jad]
+out=bible
+
+# Autoformat texts (deletes automatically spaces, empty lines, etc.)
+autoformat=true
+
+# Splash screen image (tiff, gif, jpeg, png)
+#splashimage=bible.png
+
+# Display text from right to left (e.g. if you use Persian - farsi)
+#righttoleft=true

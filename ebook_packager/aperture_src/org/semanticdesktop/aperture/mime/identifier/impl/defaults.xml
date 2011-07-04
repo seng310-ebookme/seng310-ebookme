@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<mimeTypeIdentifierFactories>
+	<mimeTypeIdentifierFactory>
+		<name>org.semanticdesktop.aperture.mime.identifier.magic.MagicMimeTypeIdentifierFactory</name>
+	</mimeTypeIdentifierFactory>
+</mimeTypeIdentifierFactories>

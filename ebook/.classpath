@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="con" path="org.elipse.mtj.JavaMEContainer/Java(TM) Platform Micro Edition SDK 3.0/DefaultCldcPhone1 (1)"/>
+	<classpathentry kind="lib" path="lib/siemens.jar"/>
+	<classpathentry kind="lib" path="lib/nokia.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
