@@ -1034,61 +1034,76 @@ public class NewEbGui
 	} //GEN-LAST:event_upBtnActionPerformed
 
 	private void saveProjectBtnActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_saveProjectBtnActionPerformed
-
-		if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
-			// Using this instead of checkChangesInBook() so that the current book is saved
-			// automatically and the user isn't confused
-			if (bookChanged && oldIdx > -1) {
-				saveBook();
+		// Need to determine if this project has been saved to file before. 
+		final File tmpFile = fcProject.getSelectedFile();
+		if (tmpFile == null) {
+			// Project hasn't been saved to file before, so show the save dialog.
+			if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+				saveProject(tmpFile);
 			}
-
-			final File tmpFile = fcProject.getSelectedFile();
-			String tmpPath = tmpFile.getPath();
-
-			if (!tmpPath.toUpperCase().endsWith(".EME")) {
-				tmpPath = tmpPath + ".eme";
-
-				//				fcProject.setSelectedFile(new File(tmpPath));
-			}
-
-			ProjectInfo tmpInfo = new ProjectInfo();
-
-			if (props.existsNotNull(Constants.PROP_SPLASH)) {
-				tmpInfo.setSplashPath(props.getProperty(Constants.PROP_SPLASH));
-			}
-
-			tmpInfo.setJadPath(saveTextField.getText());
-			tmpInfo.setBookCount(listModel.size());
-
-			try {
-				OutputStream tmpOs = new FileOutputStream(tmpPath);
-
-				if (USE_GZIP) {
-					tmpOs = new GZIPOutputStream(tmpOs);
-				}
-
-				tmpOs = new BufferedOutputStream(tmpOs);
-
-				final XMLEncoder tmpEncoder = new XMLEncoder(tmpOs);
-				tmpEncoder.writeObject(Common.VERSION);
-				tmpEncoder.writeObject(tmpInfo);
-
-				for (int i = 0, n = listModel.size(); i < n; i++) {
-					tmpEncoder.writeObject(listModel.get(i));
-				}
-
-				tmpEncoder.close();
-				JOptionPane.showMessageDialog(
-					this,
-					res.get("gui.message.projectSaved"));
-			} catch (Exception e) {
-				alert(
-					res.get("gui.alert.err", new String[] { e.getMessage() }));
-				e.printStackTrace(logStream);
-				logStream.flush();
-			}
+		} else {
+			// Project already has been saved to file once before, so just save to that file again
+			// without showing save dialog
+			saveProject(tmpFile);
 		}
 	} //GEN-LAST:event_saveProjectBtnActionPerformed
+	
+	/**
+	 * Called by saveProjectBtnActionPerformed() to save project to the file selected in fcProject 
+	 * @param tmpFile the file to save changes to (the one selected in fcProject)
+	 */
+	private void saveProject(File tmpFile) {
+		// Using this instead of checkChangesInBook() so that the current book is saved
+		// automatically and the user isn't confused
+		if (bookChanged && oldIdx > -1) {
+			saveBook();
+		}
+
+		String tmpPath = tmpFile.getPath();
+
+		if (!tmpPath.toUpperCase().endsWith(".EME")) {
+			tmpPath = tmpPath + ".eme";
+
+			//				fcProject.setSelectedFile(new File(tmpPath));
+		}
+
+		ProjectInfo tmpInfo = new ProjectInfo();
+
+		if (props.existsNotNull(Constants.PROP_SPLASH)) {
+			tmpInfo.setSplashPath(props.getProperty(Constants.PROP_SPLASH));
+		}
+
+		tmpInfo.setJadPath(saveTextField.getText());
+		tmpInfo.setBookCount(listModel.size());
+
+		try {
+			OutputStream tmpOs = new FileOutputStream(tmpPath);
+
+			if (USE_GZIP) {
+				tmpOs = new GZIPOutputStream(tmpOs);
+			}
+
+			tmpOs = new BufferedOutputStream(tmpOs);
+
+			final XMLEncoder tmpEncoder = new XMLEncoder(tmpOs);
+			tmpEncoder.writeObject(Common.VERSION);
+			tmpEncoder.writeObject(tmpInfo);
+
+			for (int i = 0, n = listModel.size(); i < n; i++) {
+				tmpEncoder.writeObject(listModel.get(i));
+			}
+
+			tmpEncoder.close();
+			JOptionPane.showMessageDialog(
+				this,
+				res.get("gui.message.projectSaved"));
+		} catch (Exception e) {
+			alert(
+				res.get("gui.alert.err", new String[] { e.getMessage() }));
+			e.printStackTrace(logStream);
+			logStream.flush();
+		}
+	}
 
 	private void openProjectBtnActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_openProjectBtnActionPerformed
 
