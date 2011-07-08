@@ -1036,7 +1036,11 @@ public class NewEbGui
 	private void saveProjectBtnActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_saveProjectBtnActionPerformed
 
 		if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
-			checkChangesInBook();
+			// Using this instead of checkChangesInBook() so that the current book is saved
+			// automatically and the user isn't confused
+			if (bookChanged && oldIdx > -1) {
+				saveBook();
+			}
 
 			final File tmpFile = fcProject.getSelectedFile();
 			String tmpPath = tmpFile.getPath();
