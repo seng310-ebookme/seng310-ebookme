@@ -78,49 +78,49 @@ public class NewEbGui
 			}
 		};
 
-	// Variables declaration - do not modify//GEN-BEGIN:variables
-	private javax.swing.JButton addBtn;
-	private javax.swing.JCheckBox advancedCb;
-	private javax.swing.JPanel advancedPanel;
-	private javax.swing.JCheckBox autoformatCb;
-	private javax.swing.JList bookList;
-	private javax.swing.JTextField bookName;
-	private javax.swing.JTextArea bookTextArea;
-	private javax.swing.JPanel boooksPanel;
-	private javax.swing.JComboBox charsetCombo;
-	private javax.swing.JButton defaultSplashBtn;
-	private javax.swing.JButton deleteBtn;
-	private javax.swing.JTextField description;
-	private javax.swing.JPanel detailsPanel;
-	private javax.swing.JButton downBtn;
-	private javax.swing.JButton fileButton;
-	private javax.swing.JScrollPane jScrollPane1;
-	private javax.swing.JScrollPane jScrollPane2;
-	private javax.swing.JScrollPane jScrollPane3;
-	private javax.swing.JScrollPane jScrollPane4;
-	private javax.swing.JLabel lblBookName;
-	private javax.swing.JLabel lblBufferSize;
-	private javax.swing.JLabel lblCharset;
-	private javax.swing.JLabel lblDescription;
-	private javax.swing.JLabel lblOutFile;
-	private javax.swing.JLabel lblText;
-	private javax.swing.JLabel lblWelcomeScreen;
-	private javax.swing.JPanel libPanel;
-	private javax.swing.JTextArea logTextArea;
-	private javax.swing.JButton openProjectBtn;
-	private javax.swing.JButton outFileBtn;
-	private javax.swing.JPanel outPanel;
-	private javax.swing.JTextField partSizeText;
-	private javax.swing.JCheckBox rightToLeftCb;
-	private javax.swing.JButton saveBtn;
-	private javax.swing.JButton saveChangesBtn;
-	private javax.swing.JButton saveProjectBtn;
-	private javax.swing.JTextField saveTextField;
-	private javax.swing.JButton splashBtn;
-	private javax.swing.JLabel splashLabel;
-	private javax.swing.JButton upBtn;
-
-	// End of variables declaration//GEN-END:variables
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton addBtn;
+    private javax.swing.JCheckBox advancedCb;
+    private javax.swing.JPanel advancedPanel;
+    private javax.swing.JCheckBox autoformatCb;
+    private javax.swing.JList bookList;
+    private javax.swing.JTextField bookName;
+    private javax.swing.JTextArea bookTextArea;
+    private javax.swing.JPanel boooksPanel;
+    private javax.swing.JComboBox charsetCombo;
+    private javax.swing.JButton defaultSplashBtn;
+    private javax.swing.JButton deleteBtn;
+    private javax.swing.JTextField description;
+    private javax.swing.JPanel detailsPanel;
+    private javax.swing.JButton downBtn;
+    private javax.swing.JButton fileButton;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JLabel lblBookName;
+    private javax.swing.JLabel lblBufferSize;
+    private javax.swing.JLabel lblCharset;
+    private javax.swing.JLabel lblDescription;
+    private javax.swing.JLabel lblOutFile;
+    private javax.swing.JLabel lblText;
+    private javax.swing.JLabel lblWelcomeScreen;
+    private javax.swing.JPanel libPanel;
+    private javax.swing.JTextArea logTextArea;
+    private javax.swing.JButton openProjectBtn;
+    private javax.swing.JButton openProjectBtn1;
+    private javax.swing.JButton outFileBtn;
+    private javax.swing.JPanel outPanel;
+    private javax.swing.JTextField partSizeText;
+    private javax.swing.JCheckBox rightToLeftCb;
+    private javax.swing.JButton saveBtn;
+    private javax.swing.JButton saveChangesBtn;
+    private javax.swing.JButton saveProjectBtn;
+    private javax.swing.JTextField saveTextField;
+    private javax.swing.JButton splashBtn;
+    private javax.swing.JLabel splashLabel;
+    private javax.swing.JButton upBtn;
+    // End of variables declaration//GEN-END:variables
 
 	/** Creates new form NewEbGui */
 	public NewEbGui() {
@@ -356,687 +356,602 @@ public class NewEbGui
 	 */
 
 	// <editor-fold defaultstate="collapsed" desc=" Generated Code
-	// <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-	private void initComponents() {
-		java.awt.GridBagConstraints gridBagConstraints;
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+        java.awt.GridBagConstraints gridBagConstraints;
 
-		detailsPanel = new javax.swing.JPanel();
-		lblBookName = new javax.swing.JLabel();
-		bookName = new javax.swing.JTextField();
-		description = new javax.swing.JTextField();
-		lblDescription = new javax.swing.JLabel();
-		lblText = new javax.swing.JLabel();
-		jScrollPane2 = new javax.swing.JScrollPane();
-		bookTextArea = new javax.swing.JTextArea();
-		saveChangesBtn = new javax.swing.JButton();
-		fileButton = new javax.swing.JButton();
-		advancedPanel = new javax.swing.JPanel();
-		autoformatCb = new javax.swing.JCheckBox();
-		lblCharset = new javax.swing.JLabel();
-		partSizeText = new javax.swing.JTextField();
-		lblBufferSize = new javax.swing.JLabel();
-		charsetCombo = new javax.swing.JComboBox();
-		advancedCb = new javax.swing.JCheckBox();
-		rightToLeftCb = new javax.swing.JCheckBox();
-		boooksPanel = new javax.swing.JPanel();
-		jScrollPane1 = new javax.swing.JScrollPane();
-		bookList = new javax.swing.JList();
-		addBtn = new javax.swing.JButton();
-		deleteBtn = new javax.swing.JButton();
-		upBtn = new javax.swing.JButton();
-		downBtn = new javax.swing.JButton();
-		openProjectBtn = new javax.swing.JButton();
-		saveProjectBtn = new javax.swing.JButton();
-		libPanel = new javax.swing.JPanel();
-		saveBtn = new javax.swing.JButton();
-		lblOutFile = new javax.swing.JLabel();
-		saveTextField = new javax.swing.JTextField();
-		lblWelcomeScreen = new javax.swing.JLabel();
-		outFileBtn = new javax.swing.JButton();
-		splashBtn = new javax.swing.JButton();
-		defaultSplashBtn = new javax.swing.JButton();
-		jScrollPane4 = new javax.swing.JScrollPane();
-		splashLabel = new javax.swing.JLabel();
-		outPanel = new javax.swing.JPanel();
-		jScrollPane3 = new javax.swing.JScrollPane();
-		logTextArea = new javax.swing.JTextArea();
+        detailsPanel = new javax.swing.JPanel();
+        lblBookName = new javax.swing.JLabel();
+        bookName = new javax.swing.JTextField();
+        description = new javax.swing.JTextField();
+        lblDescription = new javax.swing.JLabel();
+        lblText = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        bookTextArea = new javax.swing.JTextArea();
+        saveChangesBtn = new javax.swing.JButton();
+        fileButton = new javax.swing.JButton();
+        addBtn = new javax.swing.JButton();
+        advancedPanel = new javax.swing.JPanel();
+        autoformatCb = new javax.swing.JCheckBox();
+        lblCharset = new javax.swing.JLabel();
+        partSizeText = new javax.swing.JTextField();
+        lblBufferSize = new javax.swing.JLabel();
+        charsetCombo = new javax.swing.JComboBox();
+        advancedCb = new javax.swing.JCheckBox();
+        rightToLeftCb = new javax.swing.JCheckBox();
+        boooksPanel = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        bookList = new javax.swing.JList();
+        deleteBtn = new javax.swing.JButton();
+        upBtn = new javax.swing.JButton();
+        downBtn = new javax.swing.JButton();
+        openProjectBtn = new javax.swing.JButton();
+        saveProjectBtn = new javax.swing.JButton();
+        openProjectBtn1 = new javax.swing.JButton();
+        libPanel = new javax.swing.JPanel();
+        saveBtn = new javax.swing.JButton();
+        lblOutFile = new javax.swing.JLabel();
+        saveTextField = new javax.swing.JTextField();
+        lblWelcomeScreen = new javax.swing.JLabel();
+        outFileBtn = new javax.swing.JButton();
+        splashBtn = new javax.swing.JButton();
+        defaultSplashBtn = new javax.swing.JButton();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        splashLabel = new javax.swing.JLabel();
+        outPanel = new javax.swing.JPanel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        logTextArea = new javax.swing.JTextArea();
 
-		setLayout(new java.awt.GridBagLayout());
+        setLayout(new java.awt.GridBagLayout());
 
-		detailsPanel.setBorder(
-				javax.swing.BorderFactory.createTitledBorder("Details"));
+        detailsPanel.setBackground(new java.awt.Color(204, 204, 204));
+        detailsPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Details"));
 
-		lblBookName.setLabelFor(bookName);
-		lblBookName.setText("Book name");
+        lblBookName.setLabelFor(bookName);
+        lblBookName.setText("Book name");
 
-		bookName.setEnabled(false);
-		bookName.addFocusListener(
-			new java.awt.event.FocusAdapter() {
-				public void focusGained(java.awt.event.FocusEvent evt) {
-					bookNameFocusGained(evt);
-				}
-			});
+        bookName.setEnabled(false);
+        bookName.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                bookNameFocusGained(evt);
+            }
+        });
 
-		description.setEnabled(false);
-		description.addFocusListener(
-			new java.awt.event.FocusAdapter() {
-				public void focusGained(java.awt.event.FocusEvent evt) {
-					descriptionFocusGained(evt);
-				}
-			});
+        description.setEnabled(false);
+        description.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                descriptionFocusGained(evt);
+            }
+        });
 
-		lblDescription.setLabelFor(description);
-		lblDescription.setText("Description");
+        lblDescription.setLabelFor(description);
+        lblDescription.setText("Description");
 
-		lblText.setLabelFor(bookTextArea);
-		lblText.setText("Text");
+        lblText.setLabelFor(bookTextArea);
+        lblText.setText("Text");
 
-		bookTextArea.setColumns(20);
-		bookTextArea.setLineWrap(true);
-		bookTextArea.setRows(5);
-		bookTextArea.setWrapStyleWord(true);
-		bookTextArea.setEnabled(false);
-		jScrollPane2.setViewportView(bookTextArea);
-
+        bookTextArea.setColumns(20);
+        bookTextArea.setLineWrap(true);
+        bookTextArea.setRows(5);
+        bookTextArea.setWrapStyleWord(true);
+        bookTextArea.setEnabled(false);
+        jScrollPane2.setViewportView(bookTextArea);
+//*icon*
 		saveChangesBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/button_ok16.png"))); // NOI18N
-		saveChangesBtn.setEnabled(false);
-		saveChangesBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		saveChangesBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					saveChangesBtnActionPerformed(evt);
-				}
-			});
-
+        saveChangesBtn.setEnabled(false);
+        saveChangesBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        saveChangesBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                saveChangesBtnActionPerformed(evt);
+            }
+        });
+//*icon*
 		fileButton.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
-		fileButton.setEnabled(false);
-		fileButton.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		fileButton.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					fileButtonActionPerformed(evt);
-				}
-			});
-
-		org.jdesktop.layout.GroupLayout detailsPanelLayout =
-			new org.jdesktop.layout.GroupLayout(detailsPanel);
-		detailsPanel.setLayout(detailsPanelLayout);
-		detailsPanelLayout.setHorizontalGroup(
-				detailsPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						org.jdesktop.layout.GroupLayout.TRAILING,
-						detailsPanelLayout.createSequentialGroup()
-										  .addContainerGap().add(
-								detailsPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.TRAILING)
-												  .add(
-										org.jdesktop.layout.GroupLayout.LEADING,
-										jScrollPane2,
-										org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-										240,
-										Short.MAX_VALUE).add(
-										org.jdesktop.layout.GroupLayout.LEADING,
-										detailsPanelLayout.createSequentialGroup()
-														  .add(lblBookName).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														  .add(
-											bookName,
-											org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-											155,
-											Short.MAX_VALUE)).add(
-										org.jdesktop.layout.GroupLayout.LEADING,
-										detailsPanelLayout.createSequentialGroup()
-														  .add(lblDescription).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														  .add(
-											description,
-											org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-											156,
-											Short.MAX_VALUE)).add(
-										org.jdesktop.layout.GroupLayout.LEADING,
-										lblText).add(
-										org.jdesktop.layout.GroupLayout.LEADING,
-										detailsPanelLayout.createSequentialGroup()
-														  .add(fileButton).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														  .add(saveChangesBtn)))
-										  .addContainerGap()));
-		detailsPanelLayout.setVerticalGroup(
-				detailsPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						detailsPanelLayout.createSequentialGroup().add(
-								detailsPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.BASELINE)
-												  .add(lblBookName).add(
-									bookName,
-									org.jdesktop.layout.GroupLayout.PREFERRED_SIZE,
-									org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-									org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-										  .addPreferredGap(
-								org.jdesktop.layout.LayoutStyle.RELATED).add(
-								detailsPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.BASELINE)
-												  .add(lblDescription).add(
-										description,
-										org.jdesktop.layout.GroupLayout.PREFERRED_SIZE,
-										org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-										org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-										  .addPreferredGap(
-								org.jdesktop.layout.LayoutStyle.RELATED).add(
-								lblText).addPreferredGap(
-								org.jdesktop.layout.LayoutStyle.RELATED).add(
-								jScrollPane2,
-								org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-								94,
-								Short.MAX_VALUE).addPreferredGap(
-								org.jdesktop.layout.LayoutStyle.RELATED).add(
-								detailsPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.TRAILING)
-												  .add(fileButton).add(
-										saveChangesBtn)).addContainerGap()));
-
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 1;
-		gridBagConstraints.gridy = 0;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-		gridBagConstraints.weightx = 1.0;
-		gridBagConstraints.weighty = 1.0;
-		add(detailsPanel, gridBagConstraints);
-
-		advancedPanel.setBorder(
-				javax.swing.BorderFactory.createTitledBorder(
-					"Advanced options"));
-
-		autoformatCb.setSelected(true);
-		autoformatCb.setText("Autoformat");
-		autoformatCb.setBorder(
-			javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
-		autoformatCb.setEnabled(false);
-		autoformatCb.setHorizontalTextPosition(
-			javax.swing.SwingConstants.LEADING);
-		autoformatCb.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					autoformatCbActionPerformed(evt);
-				}
-			});
-
-		lblCharset.setLabelFor(charsetCombo);
-		lblCharset.setText("Character encoding");
-		lblCharset.setEnabled(false);
-
-		partSizeText.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
-		partSizeText.setText("3000");
-		partSizeText.setEnabled(false);
-		partSizeText.addFocusListener(
-			new java.awt.event.FocusAdapter() {
-				public void focusGained(java.awt.event.FocusEvent evt) {
-					partSizeTextFocusGained(evt);
-				}
-			});
-
-		lblBufferSize.setLabelFor(partSizeText);
-		lblBufferSize.setText("Buffer size");
-		lblBufferSize.setEnabled(false);
-
-		charsetCombo.setModel(
-				new javax.swing.DefaultComboBoxModel(
-						new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-		charsetCombo.setEnabled(false);
-		charsetCombo.addFocusListener(
-			new java.awt.event.FocusAdapter() {
-				public void focusGained(java.awt.event.FocusEvent evt) {
-					charsetComboFocusGained(evt);
-				}
-			});
-
-		advancedCb.setText("Enable advanced options");
-		advancedCb.setBorder(
-			javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
-		advancedCb.setHorizontalTextPosition(
-			javax.swing.SwingConstants.LEADING);
-		advancedCb.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					advancedCbActionPerformed(evt);
-				}
-			});
-
-		rightToLeftCb.setText("Right to left text");
-		rightToLeftCb.setBorder(
-			javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
-		rightToLeftCb.setEnabled(false);
-		rightToLeftCb.setHorizontalTextPosition(
-			javax.swing.SwingConstants.LEADING);
-
-		org.jdesktop.layout.GroupLayout advancedPanelLayout =
-			new org.jdesktop.layout.GroupLayout(advancedPanel);
-		advancedPanel.setLayout(advancedPanelLayout);
-		advancedPanelLayout.setHorizontalGroup(
-				advancedPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						advancedPanelLayout.createSequentialGroup()
-										   .addContainerGap().add(
-								advancedPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.LEADING)
-												   .add(advancedCb).add(
-										autoformatCb).add(rightToLeftCb)).add(
-							15,
-							15,
-							15).add(
-								advancedPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.LEADING)
-												   .add(
-										advancedPanelLayout.createSequentialGroup()
-														   .add(lblCharset).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														   .add(
-											charsetCombo,
-											0,
-											0,
-											Short.MAX_VALUE)).add(
-										advancedPanelLayout.createSequentialGroup()
-														   .add(lblBufferSize).add(
-												48,
-												48,
-												48).add(
-											partSizeText,
-											org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-											78,
-											Short.MAX_VALUE))).addContainerGap()));
-		advancedPanelLayout.setVerticalGroup(
-				advancedPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						advancedPanelLayout.createSequentialGroup()
-										   .add(advancedCb).addPreferredGap(
-								org.jdesktop.layout.LayoutStyle.RELATED).add(
-								advancedPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.BASELINE)
-												   .add(autoformatCb).add(
-										lblBufferSize).add(
-									partSizeText,
-									org.jdesktop.layout.GroupLayout.PREFERRED_SIZE,
-									org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-									org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-										   .addPreferredGap(
-								org.jdesktop.layout.LayoutStyle.RELATED).add(
-								advancedPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.BASELINE)
-												   .add(rightToLeftCb).add(
-										lblCharset).add(
-									charsetCombo,
-									org.jdesktop.layout.GroupLayout.PREFERRED_SIZE,
-									22,
-									org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-										   .addContainerGap(
-								org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-								Short.MAX_VALUE)));
-
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 0;
-		gridBagConstraints.gridy = 2;
-		gridBagConstraints.gridwidth = 2;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-		gridBagConstraints.weightx = 1.0;
-		add(advancedPanel, gridBagConstraints);
-
-		boooksPanel.setBorder(
-			javax.swing.BorderFactory.createTitledBorder("Books"));
-		boooksPanel.setMinimumSize(new java.awt.Dimension(150, 0));
-		boooksPanel.setPreferredSize(new java.awt.Dimension(150, 10));
-
-		bookList.setSelectionMode(
-			javax.swing.ListSelectionModel.SINGLE_SELECTION);
-		bookList.addListSelectionListener(
-				new javax.swing.event.ListSelectionListener() {
-					public void valueChanged(
-						javax.swing.event.ListSelectionEvent evt) {
-						bookListValueChanged(evt);
-					}
-				});
-		jScrollPane1.setViewportView(bookList);
-
-		addBtn.setIcon(
+        fileButton.setEnabled(false);
+        fileButton.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        fileButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fileButtonActionPerformed(evt);
+            }
+        });
+//*icon*
+	addBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/filenew16.png"))); // NOI18N
-		addBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		addBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					addBtnActionPerformed(evt);
-				}
-			});
+        addBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        addBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addBtnActionPerformed(evt);
+            }
+        });
 
+        org.jdesktop.layout.GroupLayout detailsPanelLayout = new org.jdesktop.layout.GroupLayout(detailsPanel);
+        detailsPanel.setLayout(detailsPanelLayout);
+        detailsPanelLayout.setHorizontalGroup(
+            detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(detailsPanelLayout.createSequentialGroup()
+                .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .add(lblBookName)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                        .add(bookName, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 187, Short.MAX_VALUE))
+                    .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .add(lblDescription)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                        .add(description, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 186, Short.MAX_VALUE))
+                    .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .add(lblText))
+                    .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 243, Short.MAX_VALUE))
+                    .add(detailsPanelLayout.createSequentialGroup()
+                        .add(17, 17, 17)
+                        .add(addBtn)
+                        .add(18, 18, 18)
+                        .add(fileButton)
+                        .add(18, 18, 18)
+                        .add(saveChangesBtn)))
+                .addContainerGap())
+        );
+        detailsPanelLayout.setVerticalGroup(
+            detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(detailsPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
+                    .add(fileButton)
+                    .add(addBtn)
+                    .add(saveChangesBtn))
+                .add(7, 7, 7)
+                .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                    .add(bookName, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                    .add(lblBookName))
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                    .add(lblDescription)
+                    .add(description, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                .add(lblText)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 134, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.weighty = 1.0;
+        add(detailsPanel, gridBagConstraints);
+
+        advancedPanel.setBackground(new java.awt.Color(204, 204, 204));
+        advancedPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Advanced options"));
+
+        autoformatCb.setBackground(new java.awt.Color(204, 204, 204));
+        autoformatCb.setSelected(true);
+        autoformatCb.setText("Autoformat");
+        autoformatCb.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
+        autoformatCb.setEnabled(false);
+        autoformatCb.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
+        autoformatCb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                autoformatCbActionPerformed(evt);
+            }
+        });
+
+        lblCharset.setLabelFor(charsetCombo);
+        lblCharset.setText("Character encoding");
+        lblCharset.setEnabled(false);
+
+        partSizeText.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
+        partSizeText.setText("3000");
+        partSizeText.setEnabled(false);
+        partSizeText.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                partSizeTextFocusGained(evt);
+            }
+        });
+
+        lblBufferSize.setLabelFor(partSizeText);
+        lblBufferSize.setText("Buffer size");
+        lblBufferSize.setEnabled(false);
+
+        charsetCombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        charsetCombo.setEnabled(false);
+        charsetCombo.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                charsetComboFocusGained(evt);
+            }
+        });
+
+        advancedCb.setBackground(new java.awt.Color(204, 204, 204));
+        advancedCb.setText("Enable advanced options");
+        advancedCb.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
+        advancedCb.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
+        advancedCb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                advancedCbActionPerformed(evt);
+            }
+        });
+
+        rightToLeftCb.setBackground(new java.awt.Color(204, 204, 204));
+        rightToLeftCb.setText("Right to left text");
+        rightToLeftCb.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
+        rightToLeftCb.setEnabled(false);
+        rightToLeftCb.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
+
+        org.jdesktop.layout.GroupLayout advancedPanelLayout = new org.jdesktop.layout.GroupLayout(advancedPanel);
+        advancedPanel.setLayout(advancedPanelLayout);
+        advancedPanelLayout.setHorizontalGroup(
+            advancedPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(advancedPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .add(advancedPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(advancedCb)
+                    .add(autoformatCb)
+                    .add(rightToLeftCb))
+                .add(15, 15, 15)
+                .add(advancedPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(advancedPanelLayout.createSequentialGroup()
+                        .add(lblCharset)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                        .add(charsetCombo, 0, 0, Short.MAX_VALUE))
+                    .add(advancedPanelLayout.createSequentialGroup()
+                        .add(lblBufferSize)
+                        .add(48, 48, 48)
+                        .add(partSizeText, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        advancedPanelLayout.setVerticalGroup(
+            advancedPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(advancedPanelLayout.createSequentialGroup()
+                .add(advancedCb)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(advancedPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                    .add(autoformatCb)
+                    .add(lblBufferSize)
+                    .add(partSizeText, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(advancedPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                    .add(rightToLeftCb)
+                    .add(lblCharset)
+                    .add(charsetCombo, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 22, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 1.0;
+        add(advancedPanel, gridBagConstraints);
+
+        boooksPanel.setBackground(new java.awt.Color(204, 204, 204));
+        boooksPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Books"));
+        boooksPanel.setMinimumSize(new java.awt.Dimension(150, 0));
+        boooksPanel.setPreferredSize(new java.awt.Dimension(150, 10));
+
+        bookList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        bookList.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
+            public void valueChanged(javax.swing.event.ListSelectionEvent evt) {
+                bookListValueChanged(evt);
+            }
+        });
+        jScrollPane1.setViewportView(bookList);
+//*icon*
 		deleteBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/stop16.png"))); // NOI18N
-		deleteBtn.setEnabled(false);
-		deleteBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		deleteBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					deleteBtnActionPerformed(evt);
-				}
-			});
+        deleteBtn.setEnabled(false);
+        deleteBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        deleteBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                deleteBtnActionPerformed(evt);
+            }
+        });
 
+//*icon*
 		upBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/up16.png"))); // NOI18N
-		upBtn.setEnabled(false);
-		upBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		upBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					upBtnActionPerformed(evt);
-				}
-			});
-
+        upBtn.setEnabled(false);
+        upBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        upBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                upBtnActionPerformed(evt);
+            }
+        });
+//*icon*
 		downBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/down16.png"))); // NOI18N
-		downBtn.setEnabled(false);
-		downBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		downBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					downBtnActionPerformed(evt);
-				}
-			});
-
+        downBtn.setEnabled(false);
+        downBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        downBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                downBtnActionPerformed(evt);
+            }
+        });
+//*icon*
 		openProjectBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
-		openProjectBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		openProjectBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					openProjectBtnActionPerformed(evt);
-				}
-			});
-
+        openProjectBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        openProjectBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                openProjectBtnActionPerformed(evt);
+            }
+        });
+//*icon*
 		saveProjectBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/filesave16.png"))); // NOI18N
-		saveProjectBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		saveProjectBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					saveProjectBtnActionPerformed(evt);
-				}
-			});
+        saveProjectBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        saveProjectBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                saveProjectBtnActionPerformed(evt);
+            }
+        });
+//** added icon **
+		openProjectBtn1.setIcon(
+				new javax.swing.ImageIcon(
+						getClass().getResource(
+								"/cz/cacek/ebook/packager/resources/images/filesave16.png"))); // NOI18N
+        openProjectBtn1.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        openProjectBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                openProjectBtn1ActionPerformed(evt);
+            }
+        });
 
-		org.jdesktop.layout.GroupLayout boooksPanelLayout =
-			new org.jdesktop.layout.GroupLayout(boooksPanel);
-		boooksPanel.setLayout(boooksPanelLayout);
-		boooksPanelLayout.setHorizontalGroup(
-				boooksPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						boooksPanelLayout.createSequentialGroup()
-										 .addContainerGap().add(
-							jScrollPane1,
-							org.jdesktop.layout.GroupLayout.PREFERRED_SIZE,
-							85,
-							org.jdesktop.layout.GroupLayout.PREFERRED_SIZE).addPreferredGap(
-								org.jdesktop.layout.LayoutStyle.RELATED).add(
-								boooksPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.TRAILING)
-												 .add(
-										boooksPanelLayout.createParallelGroup(
-												org.jdesktop.layout.GroupLayout.LEADING)
-														 .add(
-												boooksPanelLayout.createParallelGroup(
-														org.jdesktop.layout.GroupLayout.TRAILING)
-																 .add(addBtn).add(
-														deleteBtn)).add(
-											downBtn)).add(upBtn)
-												 .add(openProjectBtn).add(
-										saveProjectBtn)).addContainerGap()));
-		boooksPanelLayout.setVerticalGroup(
-				boooksPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						boooksPanelLayout.createSequentialGroup().add(
-								boooksPanelLayout.createParallelGroup(
-										org.jdesktop.layout.GroupLayout.LEADING)
-												 .add(
-										boooksPanelLayout.createSequentialGroup()
-														 .add(addBtn).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														 .add(deleteBtn).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														 .add(openProjectBtn).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED,
-												org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-												Short.MAX_VALUE)
-														 .add(saveProjectBtn).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														 .add(upBtn).addPreferredGap(
-												org.jdesktop.layout.LayoutStyle.RELATED)
-														 .add(downBtn)).add(
-										jScrollPane1,
-										org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-										222,
-										Short.MAX_VALUE)).addContainerGap()));
+        org.jdesktop.layout.GroupLayout boooksPanelLayout = new org.jdesktop.layout.GroupLayout(boooksPanel);
+        boooksPanel.setLayout(boooksPanelLayout);
+        boooksPanelLayout.setHorizontalGroup(
+            boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(boooksPanelLayout.createSequentialGroup()
+                .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(boooksPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .add(jScrollPane1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 85, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                        .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                            .add(upBtn)
+                            .add(downBtn)
+                            .add(deleteBtn)))
+                    .add(boooksPanelLayout.createSequentialGroup()
+                        .add(23, 23, 23)
+                        .add(openProjectBtn)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                        .add(saveProjectBtn)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                        .add(openProjectBtn1)))
+                .addContainerGap())
+        );
+        boooksPanelLayout.setVerticalGroup(
+            boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(boooksPanelLayout.createSequentialGroup()
+                .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(boooksPanelLayout.createSequentialGroup()
+                        .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                            .add(openProjectBtn1)
+                            .add(saveProjectBtn)
+                            .add(openProjectBtn))
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                        .add(jScrollPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 223, Short.MAX_VALUE))
+                    .add(boooksPanelLayout.createSequentialGroup()
+                        .add(99, 99, 99)
+                        .add(upBtn)
+                        .add(18, 18, 18)
+                        .add(deleteBtn)
+                        .add(18, 18, 18)
+                        .add(downBtn)))
+                .addContainerGap())
+        );
 
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 0;
-		gridBagConstraints.gridy = 0;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-		gridBagConstraints.weighty = 1.0;
-		add(boooksPanel, gridBagConstraints);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weighty = 1.0;
+        add(boooksPanel, gridBagConstraints);
 
-		libPanel.setBorder(
-			javax.swing.BorderFactory.createTitledBorder("Library"));
-		libPanel.setLayout(new java.awt.GridBagLayout());
-
+        libPanel.setBackground(new java.awt.Color(204, 204, 204));
+        libPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Library"));
+        libPanel.setLayout(new java.awt.GridBagLayout());
+//*icon*
 		saveBtn.setIcon(
-				new javax.swing.ImageIcon(
-						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/package32.png"))); // NOI18N
-		saveBtn.setText("Create JAR");
-		saveBtn.setEnabled(false);
-		saveBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					saveBtnActionPerformed(evt);
-				}
-			});
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 2;
-		gridBagConstraints.gridy = 2;
-		gridBagConstraints.gridwidth = 2;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-		gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-		gridBagConstraints.weightx = 1.0;
-		gridBagConstraints.weighty = 1.0;
-		gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
-		libPanel.add(saveBtn, gridBagConstraints);
+			new javax.swing.ImageIcon(
+				getClass().getResource(
+					"/cz/cacek/ebook/packager/resources/images/package32.png"))); // NOI18N
+        saveBtn.setText("Create JAR");
+        saveBtn.setEnabled(false);
+        saveBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                saveBtnActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
+        libPanel.add(saveBtn, gridBagConstraints);
 
-		lblOutFile.setLabelFor(saveTextField);
-		lblOutFile.setText("Output file");
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-		gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-		libPanel.add(lblOutFile, gridBagConstraints);
+        lblOutFile.setLabelFor(saveTextField);
+        lblOutFile.setText("Output file");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        libPanel.add(lblOutFile, gridBagConstraints);
 
-		saveTextField.setBackground(java.awt.Color.red);
-		saveTextField.addFocusListener(
-			new java.awt.event.FocusAdapter() {
-				public void focusGained(java.awt.event.FocusEvent evt) {
-					saveTextFieldFocusGained(evt);
-				}
-			});
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-		gridBagConstraints.weightx = 2.0;
-		gridBagConstraints.weighty = 1.0;
-		gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
-		libPanel.add(saveTextField, gridBagConstraints);
+        saveTextField.setBackground(java.awt.Color.red);
+        saveTextField.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                saveTextFieldFocusGained(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.weightx = 2.0;
+        gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
+        libPanel.add(saveTextField, gridBagConstraints);
 
-		lblWelcomeScreen.setText("Welcome screen");
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 0;
-		gridBagConstraints.gridy = 1;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-		gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-		libPanel.add(lblWelcomeScreen, gridBagConstraints);
+        lblWelcomeScreen.setText("Welcome screen");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        libPanel.add(lblWelcomeScreen, gridBagConstraints);
 
-		outFileBtn.setIcon(
-				new javax.swing.ImageIcon(
-						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
-		outFileBtn.setText("Choose file");
-		outFileBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		outFileBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					outFileBtnActionPerformed(evt);
-				}
-			});
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-		gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-		gridBagConstraints.weightx = 1.0;
-		gridBagConstraints.weighty = 1.0;
-		gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
-		libPanel.add(outFileBtn, gridBagConstraints);
+        outFileBtn.setText("Choose file");
+        outFileBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        outFileBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                outFileBtnActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
+        libPanel.add(outFileBtn, gridBagConstraints);
 
-		splashBtn.setIcon(
-				new javax.swing.ImageIcon(
-						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
-		splashBtn.setText("Choose image");
-		splashBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		splashBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					splashBtnActionPerformed(evt);
-				}
-			});
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 2;
-		gridBagConstraints.gridy = 1;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-		gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-		gridBagConstraints.weightx = 1.0;
-		gridBagConstraints.weighty = 1.0;
-		gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
-		libPanel.add(splashBtn, gridBagConstraints);
+        splashBtn.setText("Choose image");
+        splashBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        splashBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                splashBtnActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
+        libPanel.add(splashBtn, gridBagConstraints);
 
+//*icon*
 		defaultSplashBtn.setIcon(
-				new javax.swing.ImageIcon(
-						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/back16.png"))); // NOI18N
-		defaultSplashBtn.setEnabled(false);
-		defaultSplashBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
-		defaultSplashBtn.addActionListener(
-			new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent evt) {
-					defaultSplashBtnActionPerformed(evt);
-				}
-			});
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 3;
-		gridBagConstraints.gridy = 1;
-		gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-		gridBagConstraints.weightx = 1.0;
-		gridBagConstraints.weighty = 1.0;
-		gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
-		libPanel.add(defaultSplashBtn, gridBagConstraints);
+			new javax.swing.ImageIcon(
+				getClass().getResource(
+					"/cz/cacek/ebook/packager/resources/images/back16.png"))); // NOI18N
+        defaultSplashBtn.setEnabled(false);
+        defaultSplashBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        defaultSplashBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                defaultSplashBtnActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
+        libPanel.add(defaultSplashBtn, gridBagConstraints);
 
-		jScrollPane4.setBorder(null);
+        jScrollPane4.setBorder(null);
 
-		splashLabel.setIcon(
-				new javax.swing.ImageIcon(
-						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/ebook.png"))); // NOI18N
-		splashLabel.setToolTipText("Image will not be resized!");
-		splashLabel.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-		jScrollPane4.setViewportView(splashLabel);
+        splashLabel.setBackground(new java.awt.Color(204, 204, 204));
+        splashLabel.setToolTipText("Image will not be resized!");
+        splashLabel.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jScrollPane4.setViewportView(splashLabel);
 
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 1;
-		gridBagConstraints.gridy = 1;
-		gridBagConstraints.gridheight = 2;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-		gridBagConstraints.weightx = 1.0;
-		gridBagConstraints.weighty = 1.0;
-		gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
-		libPanel.add(jScrollPane4, gridBagConstraints);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
+        libPanel.add(jScrollPane4, gridBagConstraints);
 
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 0;
-		gridBagConstraints.gridy = 1;
-		gridBagConstraints.gridwidth = 2;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-		gridBagConstraints.weightx = 1.0;
-		add(libPanel, gridBagConstraints);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 1.0;
+        add(libPanel, gridBagConstraints);
 
-		outPanel.setBorder(
-			javax.swing.BorderFactory.createTitledBorder("Output"));
+        outPanel.setBackground(new java.awt.Color(204, 204, 204));
+        outPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Output"));
 
-		jScrollPane3.setEnabled(false);
-		jScrollPane3.setName("logTextArea"); // NOI18N
+        jScrollPane3.setEnabled(false);
+        jScrollPane3.setName("logTextArea"); // NOI18N
 
-		logTextArea.setColumns(20);
-		logTextArea.setEditable(false);
-		logTextArea.setLineWrap(true);
-		logTextArea.setRows(5);
-		logTextArea.setWrapStyleWord(true);
-		jScrollPane3.setViewportView(logTextArea);
+        logTextArea.setColumns(20);
+        logTextArea.setEditable(false);
+        logTextArea.setLineWrap(true);
+        logTextArea.setRows(5);
+        logTextArea.setWrapStyleWord(true);
+        jScrollPane3.setViewportView(logTextArea);
 
-		org.jdesktop.layout.GroupLayout outPanelLayout =
-			new org.jdesktop.layout.GroupLayout(outPanel);
-		outPanel.setLayout(outPanelLayout);
-		outPanelLayout.setHorizontalGroup(
-				outPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						outPanelLayout.createSequentialGroup().addContainerGap()
-									  .add(
-							jScrollPane3,
-							org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-							390,
-							Short.MAX_VALUE).addContainerGap()));
-		outPanelLayout.setVerticalGroup(
-				outPanelLayout.createParallelGroup(
-						org.jdesktop.layout.GroupLayout.LEADING).add(
-						outPanelLayout.createSequentialGroup().add(
-							jScrollPane3,
-							org.jdesktop.layout.GroupLayout.DEFAULT_SIZE,
-							94,
-							Short.MAX_VALUE).addContainerGap()));
+        org.jdesktop.layout.GroupLayout outPanelLayout = new org.jdesktop.layout.GroupLayout(outPanel);
+        outPanel.setLayout(outPanelLayout);
+        outPanelLayout.setHorizontalGroup(
+            outPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(outPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .add(jScrollPane3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        outPanelLayout.setVerticalGroup(
+            outPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(outPanelLayout.createSequentialGroup()
+                .add(jScrollPane3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 134, Short.MAX_VALUE)
+                .addContainerGap())
+        );
 
-		gridBagConstraints = new java.awt.GridBagConstraints();
-		gridBagConstraints.gridx = 0;
-		gridBagConstraints.gridy = 3;
-		gridBagConstraints.gridwidth = 2;
-		gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-		gridBagConstraints.weightx = 1.0;
-		gridBagConstraints.weighty = 1.0;
-		add(outPanel, gridBagConstraints);
-	} // </editor-fold>//GEN-END:initComponents
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.weighty = 1.0;
+        add(outPanel, gridBagConstraints);
+    }// </editor-fold>//GEN-END:initComponents
 
-	private void downBtnActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_downBtnActionPerformed
+	private void downBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_downBtnActionPerformed
 		setBookPos(bookList.getSelectedIndex() + 1);
-	} //GEN-LAST:event_downBtnActionPerformed
+	}//GEN-LAST:event_downBtnActionPerformed
 
-	private void upBtnActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_upBtnActionPerformed
+	private void upBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_upBtnActionPerformed
 		setBookPos(bookList.getSelectedIndex() - 1);
-	} //GEN-LAST:event_upBtnActionPerformed
+	}//GEN-LAST:event_upBtnActionPerformed
 
-	private void saveProjectBtnActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_saveProjectBtnActionPerformed
-		// Need to determine if this project has been saved to file before. 
+	private void saveProjectBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveProjectBtnActionPerformed
+		// Need to determine if this project has been saved to file before.
 		final File tmpFile = fcProject.getSelectedFile();
 		if (tmpFile == null) {
 			// Project hasn't been saved to file before, so show the save dialog.
@@ -1050,10 +965,10 @@ public class NewEbGui
 			// without showing save dialog
 			saveProject(tmpFile);
 		}
-	} //GEN-LAST:event_saveProjectBtnActionPerformed
-	
+	}//GEN-LAST:event_saveProjectBtnActionPerformed
+
 	/**
-	 * Called by saveProjectBtnActionPerformed() to save project to the file selected in fcProject 
+	 * Called by saveProjectBtnActionPerformed() to save project to the file selected in fcProject
 	 * @param tmpFile the file to save changes to (the one selected in fcProject)
 	 */
 	private void saveProject(File tmpFile) {
@@ -1107,7 +1022,7 @@ public class NewEbGui
 		}
 	}
 
-	private void openProjectBtnActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_openProjectBtnActionPerformed
+	private void openProjectBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openProjectBtnActionPerformed
 
 		if (fcProject.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
 			final File tmpFile = fcProject.getSelectedFile();
@@ -1164,31 +1079,35 @@ public class NewEbGui
 			saveProjectBtn.setEnabled(false);
 			checkSaveBtn();
 		}
-	} //GEN-LAST:event_openProjectBtnActionPerformed
+	}//GEN-LAST:event_openProjectBtnActionPerformed
 
-	private void bookNameFocusGained(java.awt.event.FocusEvent evt) { //GEN-FIRST:event_bookNameFocusGained
+	private void bookNameFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_bookNameFocusGained
 		bookName.setSelectionStart(0);
 		bookName.setSelectionEnd(bookName.getText().length());
-	} //GEN-LAST:event_bookNameFocusGained
+	}//GEN-LAST:event_bookNameFocusGained
 
-	private void descriptionFocusGained(java.awt.event.FocusEvent evt) { //GEN-FIRST:event_descriptionFocusGained
+	private void descriptionFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_descriptionFocusGained
 		description.setSelectionStart(0);
 		description.setSelectionEnd(description.getText().length());
-	} //GEN-LAST:event_descriptionFocusGained
+	}//GEN-LAST:event_descriptionFocusGained
 
-	private void saveTextFieldFocusGained(java.awt.event.FocusEvent evt) { //GEN-FIRST:event_saveTextFieldFocusGained
+	private void saveTextFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_saveTextFieldFocusGained
 		saveTextField.setSelectionStart(0);
 		saveTextField.setSelectionEnd(saveTextField.getText().length());
-	} //GEN-LAST:event_saveTextFieldFocusGained
+	}//GEN-LAST:event_saveTextFieldFocusGained
 
-	private void partSizeTextFocusGained(java.awt.event.FocusEvent evt) { //GEN-FIRST:event_partSizeTextFocusGained
+	private void partSizeTextFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_partSizeTextFocusGained
 		partSizeText.setSelectionStart(0);
 		partSizeText.setSelectionEnd(partSizeText.getText().length());
-	} //GEN-LAST:event_partSizeTextFocusGained
+	}//GEN-LAST:event_partSizeTextFocusGained
 
-	private void charsetComboFocusGained(java.awt.event.FocusEvent evt) { //GEN-FIRST:event_charsetComboFocusGained
+	private void charsetComboFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_charsetComboFocusGained
 		charsetCombo.setPopupVisible(true);
-	} //GEN-LAST:event_charsetComboFocusGained
+	}//GEN-LAST:event_charsetComboFocusGained
+
+        private void openProjectBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openProjectBtn1ActionPerformed
+            // TODO add your handling code here:
+        }//GEN-LAST:event_openProjectBtn1ActionPerformed
 
 	private void setBookPos(int i) {
 		bookListListenerEnabled = false;
