@@ -108,7 +108,7 @@ public class NewEbGui
     private javax.swing.JPanel libPanel;
     private javax.swing.JTextArea logTextArea;
     private javax.swing.JButton openProjectBtn;
-    private javax.swing.JButton openProjectBtn1;
+    private javax.swing.JButton saveAsBtn;
     private javax.swing.JButton outFileBtn;
     private javax.swing.JPanel outPanel;
     private javax.swing.JTextField partSizeText;
@@ -231,6 +231,8 @@ public class NewEbGui
 		addBtn.setToolTipText(res.get("gui.tooltip.btn.add"));
 		deleteBtn.setToolTipText(res.get("gui.tooltip.btn.delete"));
 		openProjectBtn.setToolTipText(res.get("gui.tooltip.btn.openProject"));
+//added tooltip for saveAs
+		saveAsBtn.setToolTipText(res.get("gui.tooltip.btn.saveAs"));
 		saveProjectBtn.setToolTipText(res.get("gui.tooltip.btn.saveProject"));
 		upBtn.setToolTipText(res.get("gui.tooltip.btn.up"));
 		downBtn.setToolTipText(res.get("gui.tooltip.btn.down"));
@@ -385,7 +387,7 @@ public class NewEbGui
         downBtn = new javax.swing.JButton();
         openProjectBtn = new javax.swing.JButton();
         saveProjectBtn = new javax.swing.JButton();
-        openProjectBtn1 = new javax.swing.JButton();
+        saveAsBtn = new javax.swing.JButton();
         libPanel = new javax.swing.JPanel();
         saveBtn = new javax.swing.JButton();
         lblOutFile = new javax.swing.JLabel();
@@ -707,14 +709,14 @@ public class NewEbGui
             }
         });
 //** added icon **
-		openProjectBtn1.setIcon(
+		saveAsBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/filesave16.png"))); // NOI18N
-        openProjectBtn1.setMargin(new java.awt.Insets(2, 2, 2, 2));
-        openProjectBtn1.addActionListener(new java.awt.event.ActionListener() {
+        saveAsBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        saveAsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                openProjectBtn1ActionPerformed(evt);
+                saveAsBtnActionPerformed(evt);
             }
         });
 
@@ -738,7 +740,7 @@ public class NewEbGui
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
                         .add(saveProjectBtn)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                        .add(openProjectBtn1)))
+                        .add(saveAsBtn)))
                 .addContainerGap())
         );
         boooksPanelLayout.setVerticalGroup(
@@ -747,7 +749,7 @@ public class NewEbGui
                 .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(boooksPanelLayout.createSequentialGroup()
                         .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                            .add(openProjectBtn1)
+                            .add(saveAsBtn)
                             .add(saveProjectBtn)
                             .add(openProjectBtn))
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
@@ -955,7 +957,7 @@ public class NewEbGui
 			// Project hasn't been saved to file before, so show the save dialog.
 			if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
 				// Need to get the newly-selected file and and save to it
-				final File selectedFile = fcProject.getSelectedFile(); 
+				final File selectedFile = fcProject.getSelectedFile();
 				saveProject(selectedFile);
 			}
 		} else {
@@ -1103,9 +1105,9 @@ public class NewEbGui
 		charsetCombo.setPopupVisible(true);
 	}//GEN-LAST:event_charsetComboFocusGained
 
-        private void openProjectBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openProjectBtn1ActionPerformed
+        private void saveAsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveAsBtnActionPerformed
             // TODO add your handling code here:
-        }//GEN-LAST:event_openProjectBtn1ActionPerformed
+        }//GEN-LAST:event_saveAsBtnActionPerformed
 
 	private void setBookPos(int i) {
 		bookListListenerEnabled = false;
