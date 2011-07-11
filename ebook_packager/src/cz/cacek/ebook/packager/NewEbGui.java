@@ -195,6 +195,7 @@ public class NewEbGui
 		saveTextField.setBackground(
 				(saveTextField.getText().length() > 0)
 				? bookList.getBackground() : Color.RED);
+		saveProjectBtn.setEnabled(true);
 		checkSaveBtn();
 	}
 
@@ -282,6 +283,7 @@ public class NewEbGui
 		} else {
 			bookName.setBackground(description.getBackground());
 			saveChangesBtn.setEnabled(true);
+			saveProjectBtn.setEnabled(true);
 		}
 
 		bookChanged = true;
@@ -1013,9 +1015,7 @@ public class NewEbGui
 			}
 
 			tmpEncoder.close();
-			JOptionPane.showMessageDialog(
-				this,
-				res.get("gui.message.projectSaved"));
+			saveProjectBtn.setEnabled(false);
 		} catch (Exception e) {
 			alert(
 				res.get("gui.alert.err", new String[] { e.getMessage() }));
@@ -1076,7 +1076,9 @@ public class NewEbGui
 				e.printStackTrace(logStream);
 				logStream.flush();
 			}
-
+			// When we initially load a project there are no unsaved changes, so disable the 
+			// save project button until some changes occur.
+			saveProjectBtn.setEnabled(false);
 			checkSaveBtn();
 		}
 	}//GEN-LAST:event_openProjectBtnActionPerformed
@@ -1348,6 +1350,7 @@ public class NewEbGui
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/ebook.png")));
 		defaultSplashBtn.setEnabled(false);
+		saveProjectBtn.setEnabled(true);
 	} // GEN-LAST:event_defaultSplashBtnActionPerformed
 
 	private void outFileBtnActionPerformed(java.awt.event.ActionEvent evt) { // GEN-FIRST:event_outFileBtnActionPerformed
@@ -1379,6 +1382,7 @@ public class NewEbGui
 		if (tmpFile != null) {
 			openImage(tmpFile.getAbsolutePath());
 		}
+		saveProjectBtn.setEnabled(true);
 	} // GEN-LAST:event_splashBtnActionPerformed
 
 	private void fileButtonActionPerformed(java.awt.event.ActionEvent evt) { // GEN-FIRST:event_fileButtonActionPerformed
