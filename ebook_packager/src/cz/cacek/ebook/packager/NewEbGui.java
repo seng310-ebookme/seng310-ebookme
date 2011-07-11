@@ -1039,7 +1039,9 @@ public class NewEbGui
 		if (tmpFile == null) {
 			// Project hasn't been saved to file before, so show the save dialog.
 			if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
-				saveProject(tmpFile);
+				// Need to get the newly-selected file and and save to it
+				final File selectedFile = fcProject.getSelectedFile(); 
+				saveProject(selectedFile);
 			}
 		} else {
 			// Project already has been saved to file once before, so just save to that file again
