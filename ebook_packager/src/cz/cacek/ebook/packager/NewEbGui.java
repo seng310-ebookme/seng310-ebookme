@@ -660,6 +660,11 @@ public class NewEbGui
             }
         });
 
+//*icon*
+		upBtn.setIcon(
+				new javax.swing.ImageIcon(
+						getClass().getResource(
+								"/cz/cacek/ebook/packager/resources/images/up16.png"))); // NOI18N
         upBtn.setEnabled(false);
         upBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         upBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -667,7 +672,11 @@ public class NewEbGui
                 upBtnActionPerformed(evt);
             }
         });
-
+//*icon*
+		downBtn.setIcon(
+				new javax.swing.ImageIcon(
+						getClass().getResource(
+								"/cz/cacek/ebook/packager/resources/images/down16.png"))); // NOI18N
         downBtn.setEnabled(false);
         downBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         downBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -675,21 +684,33 @@ public class NewEbGui
                 downBtnActionPerformed(evt);
             }
         });
-
+//*icon*
+		openProjectBtn.setIcon(
+				new javax.swing.ImageIcon(
+						getClass().getResource(
+								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
         openProjectBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         openProjectBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 openProjectBtnActionPerformed(evt);
             }
         });
-
+//*icon*
+		saveProjectBtn.setIcon(
+				new javax.swing.ImageIcon(
+						getClass().getResource(
+								"/cz/cacek/ebook/packager/resources/images/filesave16.png"))); // NOI18N
         saveProjectBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         saveProjectBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveProjectBtnActionPerformed(evt);
             }
         });
-
+//** added icon **
+		openProjectBtn1.setIcon(
+				new javax.swing.ImageIcon(
+						getClass().getResource(
+								"/cz/cacek/ebook/packager/resources/images/filesave16.png"))); // NOI18N
         openProjectBtn1.setMargin(new java.awt.Insets(2, 2, 2, 2));
         openProjectBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -751,7 +772,11 @@ public class NewEbGui
         libPanel.setBackground(new java.awt.Color(204, 204, 204));
         libPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Library"));
         libPanel.setLayout(new java.awt.GridBagLayout());
-
+//*icon*
+		saveBtn.setIcon(
+			new javax.swing.ImageIcon(
+				getClass().getResource(
+					"/cz/cacek/ebook/packager/resources/images/package32.png"))); // NOI18N
         saveBtn.setText("Create JAR");
         saveBtn.setEnabled(false);
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -830,6 +855,11 @@ public class NewEbGui
         gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
         libPanel.add(splashBtn, gridBagConstraints);
 
+//*icon*
+		defaultSplashBtn.setIcon(
+			new javax.swing.ImageIcon(
+				getClass().getResource(
+					"/cz/cacek/ebook/packager/resources/images/back16.png"))); // NOI18N
         defaultSplashBtn.setEnabled(false);
         defaultSplashBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         defaultSplashBtn.addActionListener(new java.awt.event.ActionListener() {
