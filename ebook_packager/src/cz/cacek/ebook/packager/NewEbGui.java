@@ -975,7 +975,8 @@ public class NewEbGui
 	 */
 	private void saveProject(File tmpFile) {
 		// Using this instead of checkChangesInBook() so that the current book is saved
-		// automatically and the user isn't confused
+		// automatically and the user isn't confused by a message asking them if they want to 
+		// save the current book as well after saving the project
 		if (bookChanged && oldIdx > -1) {
 			saveBook();
 		}
@@ -1107,9 +1108,13 @@ public class NewEbGui
 		charsetCombo.setPopupVisible(true);
 	}//GEN-LAST:event_charsetComboFocusGained
 
-        private void saveAsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveAsBtnActionPerformed
-            // TODO add your handling code here:
-        }//GEN-LAST:event_saveAsBtnActionPerformed
+    private void saveAsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveAsBtnActionPerformed
+		// For Save As, we always want to show the save dialog
+        if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+			final File selectedFile = fcProject.getSelectedFile();
+			saveProject(selectedFile);
+		}
+    }//GEN-LAST:event_saveAsBtnActionPerformed
 
 	private void setBookPos(int i) {
 		bookListListenerEnabled = false;
