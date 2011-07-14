@@ -454,7 +454,7 @@ public class NewEbGui
 		fileButton.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
+								"/cz/cacek/ebook/packager/resources/images/importfiletobook.png"))); // NOI18N
         fileButton.setEnabled(false);
         fileButton.setMargin(new java.awt.Insets(2, 2, 2, 2));
         fileButton.addActionListener(new java.awt.event.ActionListener() {
@@ -714,7 +714,7 @@ public class NewEbGui
 		saveAsBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/filesave16.png"))); // NOI18N
+								"/cz/cacek/ebook/packager/resources/images/filesaveas16.png"))); // NOI18N
         saveAsBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         saveAsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -975,7 +975,7 @@ public class NewEbGui
 	 */
 	private void saveProject(File tmpFile) {
 		// Using this instead of checkChangesInBook() so that the current book is saved
-		// automatically and the user isn't confused by a message asking them if they want to 
+		// automatically and the user isn't confused by a message asking them if they want to
 		// save the current book as well after saving the project
 		if (bookChanged && oldIdx > -1) {
 			saveBook();
@@ -1077,7 +1077,7 @@ public class NewEbGui
 				e.printStackTrace(logStream);
 				logStream.flush();
 			}
-			// When we initially load a project there are no unsaved changes, so disable the 
+			// When we initially load a project there are no unsaved changes, so disable the
 			// save project button until some changes occur.
 			saveProjectBtn.setEnabled(false);
 			checkSaveBtn();
