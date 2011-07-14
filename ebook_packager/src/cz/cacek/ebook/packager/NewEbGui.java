@@ -195,6 +195,7 @@ public class NewEbGui
 		saveTextField.setBackground(
 				(saveTextField.getText().length() > 0)
 				? bookList.getBackground() : Color.RED);
+		saveProjectBtn.setEnabled(true);
 		checkSaveBtn();
 	}
 
@@ -231,6 +232,8 @@ public class NewEbGui
 		addBtn.setToolTipText(res.get("gui.tooltip.btn.add"));
 		deleteBtn.setToolTipText(res.get("gui.tooltip.btn.delete"));
 		openProjectBtn.setToolTipText(res.get("gui.tooltip.btn.openProject"));
+//added tooltip for saveAs
+		saveAsBtn.setToolTipText(res.get("gui.tooltip.btn.saveAs"));
 		saveProjectBtn.setToolTipText(res.get("gui.tooltip.btn.saveProject"));
 		upBtn.setToolTipText(res.get("gui.tooltip.btn.up"));
 		downBtn.setToolTipText(res.get("gui.tooltip.btn.down"));
@@ -280,6 +283,7 @@ public class NewEbGui
 		} else {
 			bookName.setBackground(description.getBackground());
 			saveChangesBtn.setEnabled(true);
+			saveProjectBtn.setEnabled(true);
 		}
 
 		bookChanged = true;
@@ -434,13 +438,11 @@ public class NewEbGui
         bookTextArea.setWrapStyleWord(true);
         bookTextArea.setEnabled(false);
         jScrollPane2.setViewportView(bookTextArea);
-		
 //*icon*
 		saveChangesBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/button_ok16.png"))); // NOI18N
-
         saveChangesBtn.setEnabled(false);
         saveChangesBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         saveChangesBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -448,13 +450,11 @@ public class NewEbGui
                 saveChangesBtnActionPerformed(evt);
             }
         });
-		
 //*icon*
 		fileButton.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N		
-
+								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
         fileButton.setEnabled(false);
         fileButton.setMargin(new java.awt.Insets(2, 2, 2, 2));
         fileButton.addActionListener(new java.awt.event.ActionListener() {
@@ -466,8 +466,7 @@ public class NewEbGui
 	addBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/filenew16.png"))); // NOI18N		
-
+								"/cz/cacek/ebook/packager/resources/images/filenew16.png"))); // NOI18N
         addBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         addBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -480,19 +479,25 @@ public class NewEbGui
         detailsPanelLayout.setHorizontalGroup(
             detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(detailsPanelLayout.createSequentialGroup()
-                .addContainerGap()
                 .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
                         .add(lblBookName)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                        .add(bookName, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE))
+                        .add(bookName, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 187, Short.MAX_VALUE))
                     .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
                         .add(lblDescription)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                        .add(description, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))
-                    .add(lblText)
-                    .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 239, Short.MAX_VALUE)
+                        .add(description, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 186, Short.MAX_VALUE))
                     .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .add(lblText))
+                    .add(detailsPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 243, Short.MAX_VALUE))
+                    .add(detailsPanelLayout.createSequentialGroup()
+                        .add(17, 17, 17)
                         .add(addBtn)
                         .add(18, 18, 18)
                         .add(fileButton)
@@ -503,11 +508,12 @@ public class NewEbGui
         detailsPanelLayout.setVerticalGroup(
             detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(detailsPanelLayout.createSequentialGroup()
-                .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                    .add(addBtn)
+                .addContainerGap()
+                .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
                     .add(fileButton)
+                    .add(addBtn)
                     .add(saveChangesBtn))
-                .add(17, 17, 17)
+                .add(7, 7, 7)
                 .add(detailsPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                     .add(bookName, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                     .add(lblBookName))
@@ -518,7 +524,7 @@ public class NewEbGui
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
                 .add(lblText)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 137, Short.MAX_VALUE)
+                .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 134, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -605,7 +611,7 @@ public class NewEbGui
                     .add(advancedPanelLayout.createSequentialGroup()
                         .add(lblBufferSize)
                         .add(48, 48, 48)
-                        .add(partSizeText, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)))
+                        .add(partSizeText, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         advancedPanelLayout.setVerticalGroup(
@@ -650,7 +656,6 @@ public class NewEbGui
 				new javax.swing.ImageIcon(
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/stop16.png"))); // NOI18N
-
         deleteBtn.setEnabled(false);
         deleteBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         deleteBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -658,12 +663,12 @@ public class NewEbGui
                 deleteBtnActionPerformed(evt);
             }
         });
+
 //*icon*
 		upBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/up16.png"))); // NOI18N		
-
+								"/cz/cacek/ebook/packager/resources/images/up16.png"))); // NOI18N
         upBtn.setEnabled(false);
         upBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         upBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -675,8 +680,7 @@ public class NewEbGui
 		downBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/down16.png"))); // NOI18N		
-
+								"/cz/cacek/ebook/packager/resources/images/down16.png"))); // NOI18N
         downBtn.setEnabled(false);
         downBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         downBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -688,7 +692,7 @@ public class NewEbGui
 		openProjectBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/openproject.png"))); // NOI18N
+								"/cz/cacek/ebook/packager/resources/images/fileopen16.png"))); // NOI18N
         openProjectBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         openProjectBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -710,13 +714,14 @@ public class NewEbGui
 		saveAsBtn.setIcon(
 				new javax.swing.ImageIcon(
 						getClass().getResource(
-								"/cz/cacek/ebook/packager/resources/images/saveprojectas.png"))); // NOI18N
+								"/cz/cacek/ebook/packager/resources/images/filesave16.png"))); // NOI18N
         saveAsBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         saveAsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveAsBtnActionPerformed(evt);
             }
         });
+
         org.jdesktop.layout.GroupLayout boooksPanelLayout = new org.jdesktop.layout.GroupLayout(boooksPanel);
         boooksPanel.setLayout(boooksPanelLayout);
         boooksPanelLayout.setHorizontalGroup(
@@ -732,7 +737,7 @@ public class NewEbGui
                             .add(downBtn)
                             .add(deleteBtn)))
                     .add(boooksPanelLayout.createSequentialGroup()
-                        .add(17, 17, 17)
+                        .add(23, 23, 23)
                         .add(openProjectBtn)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
                         .add(saveProjectBtn)
@@ -746,11 +751,11 @@ public class NewEbGui
                 .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(boooksPanelLayout.createSequentialGroup()
                         .add(boooksPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                            .add(openProjectBtn)
+                            .add(saveAsBtn)
                             .add(saveProjectBtn)
-                            .add(saveAsBtn))
+                            .add(openProjectBtn))
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                        .add(jScrollPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE))
+                        .add(jScrollPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 223, Short.MAX_VALUE))
                     .add(boooksPanelLayout.createSequentialGroup()
                         .add(99, 99, 99)
                         .add(upBtn)
@@ -793,11 +798,7 @@ public class NewEbGui
         gridBagConstraints.weighty = 1.0;
         gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
         libPanel.add(saveBtn, gridBagConstraints);
-//*icon*
-		defaultSplashBtn.setIcon(
-			new javax.swing.ImageIcon(
-				getClass().getResource(
-					"/cz/cacek/ebook/packager/resources/images/back16.png"))); // NOI18N
+
         lblOutFile.setLabelFor(saveTextField);
         lblOutFile.setText("Output file");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -858,6 +859,11 @@ public class NewEbGui
         gridBagConstraints.insets = new java.awt.Insets(2, 5, 0, 0);
         libPanel.add(splashBtn, gridBagConstraints);
 
+//*icon*
+		defaultSplashBtn.setIcon(
+			new javax.swing.ImageIcon(
+				getClass().getResource(
+					"/cz/cacek/ebook/packager/resources/images/back16.png"))); // NOI18N
         defaultSplashBtn.setEnabled(false);
         defaultSplashBtn.setMargin(new java.awt.Insets(2, 2, 2, 2));
         defaultSplashBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -918,13 +924,13 @@ public class NewEbGui
             outPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(outPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .add(jScrollPane3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 389, Short.MAX_VALUE)
+                .add(jScrollPane3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                 .addContainerGap())
         );
         outPanelLayout.setVerticalGroup(
             outPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(outPanelLayout.createSequentialGroup()
-                .add(jScrollPane3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 137, Short.MAX_VALUE)
+                .add(jScrollPane3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 134, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -953,7 +959,7 @@ public class NewEbGui
 			// Project hasn't been saved to file before, so show the save dialog.
 			if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
 				// Need to get the newly-selected file and and save to it
-				final File selectedFile = fcProject.getSelectedFile(); 
+				final File selectedFile = fcProject.getSelectedFile();
 				saveProject(selectedFile);
 			}
 		} else {
@@ -969,7 +975,8 @@ public class NewEbGui
 	 */
 	private void saveProject(File tmpFile) {
 		// Using this instead of checkChangesInBook() so that the current book is saved
-		// automatically and the user isn't confused
+		// automatically and the user isn't confused by a message asking them if they want to 
+		// save the current book as well after saving the project
 		if (bookChanged && oldIdx > -1) {
 			saveBook();
 		}
@@ -1009,9 +1016,7 @@ public class NewEbGui
 			}
 
 			tmpEncoder.close();
-			JOptionPane.showMessageDialog(
-				this,
-				res.get("gui.message.projectSaved"));
+			saveProjectBtn.setEnabled(false);
 		} catch (Exception e) {
 			alert(
 				res.get("gui.alert.err", new String[] { e.getMessage() }));
@@ -1072,7 +1077,9 @@ public class NewEbGui
 				e.printStackTrace(logStream);
 				logStream.flush();
 			}
-
+			// When we initially load a project there are no unsaved changes, so disable the 
+			// save project button until some changes occur.
+			saveProjectBtn.setEnabled(false);
 			checkSaveBtn();
 		}
 	}//GEN-LAST:event_openProjectBtnActionPerformed
@@ -1101,9 +1108,13 @@ public class NewEbGui
 		charsetCombo.setPopupVisible(true);
 	}//GEN-LAST:event_charsetComboFocusGained
 
-        private void saveAsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openProjectBtn1ActionPerformed
-            // TODO add your handling code here:
-        }//GEN-LAST:event_openProjectBtn1ActionPerformed
+    private void saveAsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveAsBtnActionPerformed
+		// For Save As, we always want to show the save dialog
+        if (fcProject.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+			final File selectedFile = fcProject.getSelectedFile();
+			saveProject(selectedFile);
+		}
+    }//GEN-LAST:event_saveAsBtnActionPerformed
 
 	private void setBookPos(int i) {
 		bookListListenerEnabled = false;
@@ -1344,6 +1355,7 @@ public class NewEbGui
 						getClass().getResource(
 								"/cz/cacek/ebook/packager/resources/images/ebook.png")));
 		defaultSplashBtn.setEnabled(false);
+		saveProjectBtn.setEnabled(true);
 	} // GEN-LAST:event_defaultSplashBtnActionPerformed
 
 	private void outFileBtnActionPerformed(java.awt.event.ActionEvent evt) { // GEN-FIRST:event_outFileBtnActionPerformed
@@ -1375,6 +1387,7 @@ public class NewEbGui
 		if (tmpFile != null) {
 			openImage(tmpFile.getAbsolutePath());
 		}
+		saveProjectBtn.setEnabled(true);
 	} // GEN-LAST:event_splashBtnActionPerformed
 
 	private void fileButtonActionPerformed(java.awt.event.ActionEvent evt) { // GEN-FIRST:event_fileButtonActionPerformed
